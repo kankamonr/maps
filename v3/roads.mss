@@ -9,7 +9,7 @@
 @road-fill: #ddd;
 @footway-fill: salmon;
 @footway-fill-noaccess: #bbbbbb;
-@steps-fill: @footway-fill;
+@steps-fill: #b5903a;
 @steps-fill-noaccess: #bbbbbb;
 @cycleway-fill: blue;
 @cycleway-fill-noaccess: #9999ff;
@@ -126,7 +126,7 @@
 @pedestrian-width-z14:            3;
 @road-width-z14:                  2;
 @service-width-z14:               2;
-@steps-width-z14:                 1.7;
+@steps-width-z14:                 0.7;
 
 @motorway-width-z15:             10;
 @motorway-link-width-z15:         7.8;
@@ -147,7 +147,7 @@
 @track-width-z15:                 1.5;
 @track-grade1-width-z15:          0.75;
 @track-grade2-width-z15:          0.75;
-@steps-width-z15:                 8;
+@steps-width-z15:                 3;
 
 @secondary-width-z16:            10;
 @tertiary-width-z16:             10;
