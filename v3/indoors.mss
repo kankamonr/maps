@@ -17,11 +17,11 @@
       line-width: .75;
       line-clip: false;
     }
-    [indoor = 'office'],
-    [indoor = 'storage'],
-    [indoor = 'kitchen'],
-    [indoor = 'server'],
-    [indoor = 'misc']{
+    [room = 'office'],
+    [room = 'storage'],
+    [room = 'kitchen'],
+    [room = 'server'],
+    [room = 'misc']{
       polygon-fill: #fcefd2;
     
     }
@@ -42,11 +42,11 @@
       polygon-fill: #b6d1db;
     }
 
-    [indoor = 'classroom'],
-    [indoor = 'conferrence'],
-    [indoor = 'seminar'],
+    [room = 'classroom'],
+    [room = 'conferrence'],
+    [room = 'seminar'],
     [amenity = 'library'],
-    [indoor ='computer_room']{
+    [room = 'computer_room']{
       polygon-fill: #d1ffd3;
     }
     
@@ -55,4 +55,3 @@
    
   }
 }
-
