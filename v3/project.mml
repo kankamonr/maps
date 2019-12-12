@@ -457,7 +457,8 @@ Layer:
         (SELECT
             way,
             amenity,
-            indoor
+            indoor,
+            room
             
           FROM planet_osm_polygon
           WHERE indoor IS NOT NULL
