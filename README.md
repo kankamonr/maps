@@ -2,10 +2,10 @@
 This project is provided indoor stylesheet for informatics building at TUM. There are three versions of indoor stlesheet. However, the seleected version is version three, which is the most updated version. 
 Informatics bulding is edited for levelo and contained in osm file data "munich_test.osm" Anoter osm file contains Glasgow airport at level 1.
 
-##Installation
+## Installation
 This project is used [OpenStreetMap-Carto Stylesheet](https://github.com/gravitystorm/openstreetmap-carto) following [building tile server totorial](https://switch2osm.org/serving-tiles/manually-building-a-tile-server-18-04-lts/).
 
-##Usage
+## Usage
 
 All of file in version folder need to be placed in 
 ```bash
@@ -18,7 +18,7 @@ Before adding indoor.mss file to openstreetmap-carto folder, the following files
 - openstreetmap-carto.style
 
 ```
-####project.mml
+#### project.mml
 Layer indoors need to be updated in project.mml file.
 -Stylesheet section:
 ```bash
@@ -32,7 +32,7 @@ Layer:
   - id: indoors...
   - id: indoors-text...
 ```
-####openstreetmap-carto.lua
+#### openstreetmap-carto.lua
 Openstreetmap-carto.lua need to be added 'indoor' and 'room' to polygon_key section
 ```bash
 local polygon_keys = {
@@ -40,7 +40,7 @@ local polygon_keys = {
     'room'
 }
 ```
-####openstreetmap-carto.style
+#### openstreetmap-carto.style
 OSM type of indoor and room need to be added in openstreetmap-carto.style
 ```bash
 # OsmType  Tag          DataType     Flags
