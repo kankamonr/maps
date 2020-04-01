@@ -8,23 +8,30 @@
 @indoor-major-z14: darken(@indoor-major-fill, 10%);  // Lch(66, 11, 65)
 
 #indoors {
+  
+  
   [zoom >= 17] {
     polygon-fill: @indoor-low-zoom;
     polygon-clip: false;
+
     [zoom >= 19] {
       polygon-fill: @indoor-fill;
       line-color: @indoor-line;
       line-width: .75;
       line-clip: false;
+      
     }
+    
+
     [room = 'office'],
     [room = 'storage'],
     [room = 'kitchen'],
     [room = 'server'],
     [room = 'misc']{
       polygon-fill: #fcefd2;
-    
-    }
+      
+      }
+
     [indoor = 'corridor']{
       polygon-fill: #FFFFFF;
       line-color: #FFFFFF;
@@ -49,9 +56,16 @@
     [room = 'computer_room']{
       polygon-fill: #d1ffd3;
     }
-    
-    
-    
+   
    
   }
+}
+#indoors-text{
+  [zoom>= 22]{
+    text-name: "[ref]";
+    text-face-name: @book-fonts;
+    text-size: 14;
+    text-fill: black;
+  }
+  
 }

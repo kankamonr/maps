@@ -50,6 +50,7 @@ way        tunnel       text         linear
 node,way   water        text         polygon
 node,way   waterway     text         polygon
 node,way   indoor       text         polygon
+node,way   room         text         polygon
 way        way_area     real         linear # This is calculated during import
 
 # Columns defined in openstreetmap-carto.lua file

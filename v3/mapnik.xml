@@ -10974,91 +10974,241 @@
   <Style filter-mode="first" name="indoors">
     <Rule>
       <MaxScaleDenominator>5000</MaxScaleDenominator>
-      <Filter><![CDATA[([amenity] = 'toilets') and ([indoor] = 'corridor')]]></Filter>
-      <PolygonSymbolizer clip="false" fill="#d9d0c9" />
-      <LineSymbolizer clip="false" stroke="#e0e0e0" stroke-width="0.01" />
+      <Filter><![CDATA[([room] = 'computer_room') and ([indoor] = 'corridor')]]></Filter>
+      <PolygonSymbolizer clip="false" fill="#d1ffd3" />
+      <LineSymbolizer clip="false" stroke="#ffffff" stroke-width="0.1" />
     </Rule>
     <Rule>
       <MaxScaleDenominator>1500</MaxScaleDenominator>
-      <Filter><![CDATA[([amenity] = 'toilets')]]></Filter>
-      <PolygonSymbolizer clip="false" fill="#d9d0c9" />
-      <LineSymbolizer clip="false" stroke="#b9a99c" stroke-width="0.75" />
+      <Filter><![CDATA[([room] = 'computer_room')]]></Filter>
+      <PolygonSymbolizer clip="false" fill="#d1ffd3" />
+      <LineSymbolizer clip="false" stroke="#ffe29e" stroke-width="0.75" />
     </Rule>
     <Rule>
       <MaxScaleDenominator>5000</MaxScaleDenominator>
       <MinScaleDenominator>1500</MinScaleDenominator>
-      <Filter><![CDATA[([amenity] = 'toilets')]]></Filter>
-      <PolygonSymbolizer clip="false" fill="#d9d0c9" />
+      <Filter><![CDATA[([room] = 'computer_room')]]></Filter>
+      <PolygonSymbolizer clip="false" fill="#d1ffd3" />
     </Rule>
     <Rule>
       <MaxScaleDenominator>5000</MaxScaleDenominator>
-      <Filter><![CDATA[([amenity] = 'fast_food') and ([indoor] = 'corridor')]]></Filter>
-      <PolygonSymbolizer clip="false" fill="#d9d0c9" />
-      <LineSymbolizer clip="false" stroke="#e0e0e0" stroke-width="0.01" />
+      <Filter><![CDATA[([amenity] = 'library') and ([indoor] = 'corridor')]]></Filter>
+      <PolygonSymbolizer clip="false" fill="#d1ffd3" />
+      <LineSymbolizer clip="false" stroke="#ffffff" stroke-width="0.1" />
     </Rule>
     <Rule>
       <MaxScaleDenominator>1500</MaxScaleDenominator>
-      <Filter><![CDATA[([amenity] = 'fast_food')]]></Filter>
-      <PolygonSymbolizer clip="false" fill="#d9d0c9" />
-      <LineSymbolizer clip="false" stroke="#b9a99c" stroke-width="0.75" />
+      <Filter><![CDATA[([amenity] = 'library')]]></Filter>
+      <PolygonSymbolizer clip="false" fill="#d1ffd3" />
+      <LineSymbolizer clip="false" stroke="#ffe29e" stroke-width="0.75" />
     </Rule>
     <Rule>
       <MaxScaleDenominator>5000</MaxScaleDenominator>
       <MinScaleDenominator>1500</MinScaleDenominator>
-      <Filter><![CDATA[([amenity] = 'fast_food')]]></Filter>
-      <PolygonSymbolizer clip="false" fill="#d9d0c9" />
+      <Filter><![CDATA[([amenity] = 'library')]]></Filter>
+      <PolygonSymbolizer clip="false" fill="#d1ffd3" />
     </Rule>
     <Rule>
       <MaxScaleDenominator>5000</MaxScaleDenominator>
-      <Filter><![CDATA[([amenity] = 'info') and ([indoor] = 'corridor')]]></Filter>
-      <PolygonSymbolizer clip="false" fill="#d9d0c9" />
-      <LineSymbolizer clip="false" stroke="#e0e0e0" stroke-width="0.01" />
+      <Filter><![CDATA[([room] = 'seminar') and ([indoor] = 'corridor')]]></Filter>
+      <PolygonSymbolizer clip="false" fill="#d1ffd3" />
+      <LineSymbolizer clip="false" stroke="#ffffff" stroke-width="0.1" />
     </Rule>
     <Rule>
       <MaxScaleDenominator>1500</MaxScaleDenominator>
-      <Filter><![CDATA[([amenity] = 'info')]]></Filter>
-      <PolygonSymbolizer clip="false" fill="#d9d0c9" />
-      <LineSymbolizer clip="false" stroke="#b9a99c" stroke-width="0.75" />
+      <Filter><![CDATA[([room] = 'seminar')]]></Filter>
+      <PolygonSymbolizer clip="false" fill="#d1ffd3" />
+      <LineSymbolizer clip="false" stroke="#ffe29e" stroke-width="0.75" />
     </Rule>
     <Rule>
       <MaxScaleDenominator>5000</MaxScaleDenominator>
       <MinScaleDenominator>1500</MinScaleDenominator>
-      <Filter><![CDATA[([amenity] = 'info')]]></Filter>
-      <PolygonSymbolizer clip="false" fill="#d9d0c9" />
+      <Filter><![CDATA[([room] = 'seminar')]]></Filter>
+      <PolygonSymbolizer clip="false" fill="#d1ffd3" />
+    </Rule>
+    <Rule>
+      <MaxScaleDenominator>5000</MaxScaleDenominator>
+      <Filter><![CDATA[([room] = 'conferrence') and ([indoor] = 'corridor')]]></Filter>
+      <PolygonSymbolizer clip="false" fill="#d1ffd3" />
+      <LineSymbolizer clip="false" stroke="#ffffff" stroke-width="0.1" />
+    </Rule>
+    <Rule>
+      <MaxScaleDenominator>1500</MaxScaleDenominator>
+      <Filter><![CDATA[([room] = 'conferrence')]]></Filter>
+      <PolygonSymbolizer clip="false" fill="#d1ffd3" />
+      <LineSymbolizer clip="false" stroke="#ffe29e" stroke-width="0.75" />
+    </Rule>
+    <Rule>
+      <MaxScaleDenominator>5000</MaxScaleDenominator>
+      <MinScaleDenominator>1500</MinScaleDenominator>
+      <Filter><![CDATA[([room] = 'conferrence')]]></Filter>
+      <PolygonSymbolizer clip="false" fill="#d1ffd3" />
+    </Rule>
+    <Rule>
+      <MaxScaleDenominator>5000</MaxScaleDenominator>
+      <Filter><![CDATA[([room] = 'classroom') and ([indoor] = 'corridor')]]></Filter>
+      <PolygonSymbolizer clip="false" fill="#d1ffd3" />
+      <LineSymbolizer clip="false" stroke="#ffffff" stroke-width="0.1" />
+    </Rule>
+    <Rule>
+      <MaxScaleDenominator>1500</MaxScaleDenominator>
+      <Filter><![CDATA[([room] = 'classroom')]]></Filter>
+      <PolygonSymbolizer clip="false" fill="#d1ffd3" />
+      <LineSymbolizer clip="false" stroke="#ffe29e" stroke-width="0.75" />
+    </Rule>
+    <Rule>
+      <MaxScaleDenominator>5000</MaxScaleDenominator>
+      <MinScaleDenominator>1500</MinScaleDenominator>
+      <Filter><![CDATA[([room] = 'classroom')]]></Filter>
+      <PolygonSymbolizer clip="false" fill="#d1ffd3" />
     </Rule>
     <Rule>
       <MaxScaleDenominator>5000</MaxScaleDenominator>
       <Filter><![CDATA[([amenity] = 'post_office') and ([indoor] = 'corridor')]]></Filter>
-      <PolygonSymbolizer clip="false" fill="#d9d0c9" />
-      <LineSymbolizer clip="false" stroke="#e0e0e0" stroke-width="0.01" />
+      <PolygonSymbolizer clip="false" fill="#b6d1db" />
+      <LineSymbolizer clip="false" stroke="#ffffff" stroke-width="0.1" />
     </Rule>
     <Rule>
       <MaxScaleDenominator>1500</MaxScaleDenominator>
       <Filter><![CDATA[([amenity] = 'post_office')]]></Filter>
-      <PolygonSymbolizer clip="false" fill="#d9d0c9" />
-      <LineSymbolizer clip="false" stroke="#b9a99c" stroke-width="0.75" />
+      <PolygonSymbolizer clip="false" fill="#b6d1db" />
+      <LineSymbolizer clip="false" stroke="#ffe29e" stroke-width="0.75" />
     </Rule>
     <Rule>
       <MaxScaleDenominator>5000</MaxScaleDenominator>
       <MinScaleDenominator>1500</MinScaleDenominator>
       <Filter><![CDATA[([amenity] = 'post_office')]]></Filter>
-      <PolygonSymbolizer clip="false" fill="#d9d0c9" />
+      <PolygonSymbolizer clip="false" fill="#b6d1db" />
+    </Rule>
+    <Rule>
+      <MaxScaleDenominator>5000</MaxScaleDenominator>
+      <Filter><![CDATA[([amenity] = 'info') and ([indoor] = 'corridor')]]></Filter>
+      <PolygonSymbolizer clip="false" fill="#b6d1db" />
+      <LineSymbolizer clip="false" stroke="#ffffff" stroke-width="0.1" />
+    </Rule>
+    <Rule>
+      <MaxScaleDenominator>1500</MaxScaleDenominator>
+      <Filter><![CDATA[([amenity] = 'info')]]></Filter>
+      <PolygonSymbolizer clip="false" fill="#b6d1db" />
+      <LineSymbolizer clip="false" stroke="#ffe29e" stroke-width="0.75" />
+    </Rule>
+    <Rule>
+      <MaxScaleDenominator>5000</MaxScaleDenominator>
+      <MinScaleDenominator>1500</MinScaleDenominator>
+      <Filter><![CDATA[([amenity] = 'info')]]></Filter>
+      <PolygonSymbolizer clip="false" fill="#b6d1db" />
+    </Rule>
+    <Rule>
+      <MaxScaleDenominator>5000</MaxScaleDenominator>
+      <Filter><![CDATA[([amenity] = 'fast_food') and ([indoor] = 'corridor')]]></Filter>
+      <PolygonSymbolizer clip="false" fill="#fdff9e" />
+      <LineSymbolizer clip="false" stroke="#ffffff" stroke-width="0.1" />
+    </Rule>
+    <Rule>
+      <MaxScaleDenominator>1500</MaxScaleDenominator>
+      <Filter><![CDATA[([amenity] = 'fast_food')]]></Filter>
+      <PolygonSymbolizer clip="false" fill="#fdff9e" />
+      <LineSymbolizer clip="false" stroke="#ffe29e" stroke-width="0.75" />
+    </Rule>
+    <Rule>
+      <MaxScaleDenominator>5000</MaxScaleDenominator>
+      <MinScaleDenominator>1500</MinScaleDenominator>
+      <Filter><![CDATA[([amenity] = 'fast_food')]]></Filter>
+      <PolygonSymbolizer clip="false" fill="#fdff9e" />
+    </Rule>
+    <Rule>
+      <MaxScaleDenominator>5000</MaxScaleDenominator>
+      <Filter><![CDATA[([amenity] = 'toilets') and ([indoor] = 'corridor')]]></Filter>
+      <PolygonSymbolizer clip="false" fill="#fff9eb" />
+      <LineSymbolizer clip="false" stroke="#ffffff" stroke-width="0.1" />
+    </Rule>
+    <Rule>
+      <MaxScaleDenominator>1500</MaxScaleDenominator>
+      <Filter><![CDATA[([amenity] = 'toilets')]]></Filter>
+      <PolygonSymbolizer clip="false" fill="#fff9eb" />
+      <LineSymbolizer clip="false" stroke="#ffe29e" stroke-width="0.75" />
+    </Rule>
+    <Rule>
+      <MaxScaleDenominator>5000</MaxScaleDenominator>
+      <MinScaleDenominator>1500</MinScaleDenominator>
+      <Filter><![CDATA[([amenity] = 'toilets')]]></Filter>
+      <PolygonSymbolizer clip="false" fill="#fff9eb" />
     </Rule>
     <Rule>
       <MaxScaleDenominator>5000</MaxScaleDenominator>
       <Filter><![CDATA[([indoor] = 'corridor')]]></Filter>
-      <PolygonSymbolizer clip="false" fill="#e0e0e0" />
-      <LineSymbolizer clip="false" stroke="#e0e0e0" stroke-width="0.01" />
+      <PolygonSymbolizer clip="false" fill="#ffffff" />
+      <LineSymbolizer clip="false" stroke="#ffffff" stroke-width="0.1" />
     </Rule>
     <Rule>
       <MaxScaleDenominator>1500</MaxScaleDenominator>
-      <PolygonSymbolizer clip="false" fill="#d9d0c9" />
-      <LineSymbolizer clip="false" stroke="#b9a99c" stroke-width="0.75" />
+      <Filter><![CDATA[([room] = 'storage')]]></Filter>
+      <PolygonSymbolizer clip="false" fill="#fcefd2" />
+      <LineSymbolizer clip="false" stroke="#ffe29e" stroke-width="0.75" />
     </Rule>
     <Rule>
       <MaxScaleDenominator>5000</MaxScaleDenominator>
       <MinScaleDenominator>1500</MinScaleDenominator>
-      <PolygonSymbolizer clip="false" fill="#d1c6bd" />
+      <Filter><![CDATA[([room] = 'storage')]]></Filter>
+      <PolygonSymbolizer clip="false" fill="#fcefd2" />
+    </Rule>
+    <Rule>
+      <MaxScaleDenominator>1500</MaxScaleDenominator>
+      <Filter><![CDATA[([room] = 'office')]]></Filter>
+      <PolygonSymbolizer clip="false" fill="#fcefd2" />
+      <LineSymbolizer clip="false" stroke="#ffe29e" stroke-width="0.75" />
+    </Rule>
+    <Rule>
+      <MaxScaleDenominator>5000</MaxScaleDenominator>
+      <MinScaleDenominator>1500</MinScaleDenominator>
+      <Filter><![CDATA[([room] = 'office')]]></Filter>
+      <PolygonSymbolizer clip="false" fill="#fcefd2" />
+    </Rule>
+    <Rule>
+      <MaxScaleDenominator>1500</MaxScaleDenominator>
+      <Filter><![CDATA[([room] = 'misc')]]></Filter>
+      <PolygonSymbolizer clip="false" fill="#fcefd2" />
+      <LineSymbolizer clip="false" stroke="#ffe29e" stroke-width="0.75" />
+    </Rule>
+    <Rule>
+      <MaxScaleDenominator>5000</MaxScaleDenominator>
+      <MinScaleDenominator>1500</MinScaleDenominator>
+      <Filter><![CDATA[([room] = 'misc')]]></Filter>
+      <PolygonSymbolizer clip="false" fill="#fcefd2" />
+    </Rule>
+    <Rule>
+      <MaxScaleDenominator>1500</MaxScaleDenominator>
+      <Filter><![CDATA[([room] = 'server')]]></Filter>
+      <PolygonSymbolizer clip="false" fill="#fcefd2" />
+      <LineSymbolizer clip="false" stroke="#ffe29e" stroke-width="0.75" />
+    </Rule>
+    <Rule>
+      <MaxScaleDenominator>5000</MaxScaleDenominator>
+      <MinScaleDenominator>1500</MinScaleDenominator>
+      <Filter><![CDATA[([room] = 'server')]]></Filter>
+      <PolygonSymbolizer clip="false" fill="#fcefd2" />
+    </Rule>
+    <Rule>
+      <MaxScaleDenominator>1500</MaxScaleDenominator>
+      <Filter><![CDATA[([room] = 'kitchen')]]></Filter>
+      <PolygonSymbolizer clip="false" fill="#fcefd2" />
+      <LineSymbolizer clip="false" stroke="#ffe29e" stroke-width="0.75" />
+    </Rule>
+    <Rule>
+      <MaxScaleDenominator>5000</MaxScaleDenominator>
+      <MinScaleDenominator>1500</MinScaleDenominator>
+      <Filter><![CDATA[([room] = 'kitchen')]]></Filter>
+      <PolygonSymbolizer clip="false" fill="#fcefd2" />
+    </Rule>
+    <Rule>
+      <MaxScaleDenominator>1500</MaxScaleDenominator>
+      <PolygonSymbolizer clip="false" fill="#fff9eb" />
+      <LineSymbolizer clip="false" stroke="#ffe29e" stroke-width="0.75" />
+    </Rule>
+    <Rule>
+      <MaxScaleDenominator>5000</MaxScaleDenominator>
+      <MinScaleDenominator>1500</MinScaleDenominator>
+      <PolygonSymbolizer clip="false" fill="#fff3d7" />
     </Rule>
   </Style>
   <Layer maximum-scale-denominator="5000" name="indoors" srs="+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over">
@@ -11073,14 +11223,41 @@
     way,
     amenity,
     indoor,
-    room
-    
+    room, 
+    ref
   FROM planet_osm_polygon
   WHERE indoor IS NOT NULL
     AND building != 'no'
     AND way_area > 1*!pixel_width!::real*!pixel_height!::real
   ORDER BY COALESCE(layer,0), way_area DESC
 ) AS indoors]]></Parameter>
+    </Datasource>
+  </Layer>
+  <Style filter-mode="first" name="indoors-text">
+    <Rule>
+      <MaxScaleDenominator>250</MaxScaleDenominator>
+      <TextSymbolizer fill="#000000" fontset-name="fontset-0" size="14"><![CDATA[[ref]]]></TextSymbolizer>
+    </Rule>
+  </Style>
+  <Layer name="indoors-text" srs="+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over">
+    <StyleName><![CDATA[indoors-text]]></StyleName>
+    <Datasource>
+      <Parameter name="type"><![CDATA[postgis]]></Parameter>
+      <Parameter name="dbname"><![CDATA[gis]]></Parameter>
+      <Parameter name="key_field"><![CDATA[]]></Parameter>
+      <Parameter name="geometry_field"><![CDATA[way]]></Parameter>
+      <Parameter name="extent"><![CDATA[-20037508,-20037508,20037508,20037508]]></Parameter>
+      <Parameter name="table"><![CDATA[(SELECT
+    way,
+    ref,
+    indoor,
+    room,
+    way_area/NULLIF(POW(!scale_denominator!*0.001*0.28,2),0) AS way_pixels
+  FROM planet_osm_polygon
+  WHERE indoor IS NOT NULL          
+    AND indoor != 'no'
+    AND ref IS NOT NULL
+) AS indoors_text]]></Parameter>
     </Datasource>
   </Layer>
   <Style filter-mode="first" name="tunnels-fill">
@@ -14079,95 +14256,95 @@
     <Rule>
       <MaxScaleDenominator>1500</MaxScaleDenominator>
       <Filter><![CDATA[([feature] = 'highway_path') and ([bicycle] != 'designated') and ([horse] != 'designated') and ([access] != 'no') and ([int_surface] = 'unpaved')]]></Filter>
-      <LineSymbolizer stroke="#b37614" stroke-dasharray="1, 4" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.6" />
+      <LineSymbolizer stroke="#fa8072" stroke-dasharray="1, 4" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.6" />
     </Rule>
     <Rule>
       <MaxScaleDenominator>2500</MaxScaleDenominator>
       <MinScaleDenominator>1500</MinScaleDenominator>
       <Filter><![CDATA[([feature] = 'highway_path') and ([bicycle] != 'designated') and ([horse] != 'designated') and ([access] != 'no') and ([int_surface] = 'unpaved')]]></Filter>
-      <LineSymbolizer stroke="#b37614" stroke-dasharray="1, 4" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.3" />
+      <LineSymbolizer stroke="#fa8072" stroke-dasharray="1, 4" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.3" />
     </Rule>
     <Rule>
       <MaxScaleDenominator>12500</MaxScaleDenominator>
       <MinScaleDenominator>2500</MinScaleDenominator>
       <Filter><![CDATA[([feature] = 'highway_path') and ([bicycle] != 'designated') and ([horse] != 'designated') and ([access] != 'no') and ([int_surface] = 'unpaved')]]></Filter>
-      <LineSymbolizer stroke="#b37614" stroke-dasharray="1, 4" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.3" />
+      <LineSymbolizer stroke="#fa8072" stroke-dasharray="1, 4" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.3" />
     </Rule>
     <Rule>
       <MaxScaleDenominator>25000</MaxScaleDenominator>
       <MinScaleDenominator>12500</MinScaleDenominator>
       <Filter><![CDATA[([feature] = 'highway_path') and ([bicycle] != 'designated') and ([horse] != 'designated') and ([access] != 'no') and ([int_surface] = 'unpaved')]]></Filter>
-      <LineSymbolizer stroke="#b37614" stroke-dasharray="1, 4" stroke-linecap="round" stroke-linejoin="round" stroke-width="1" />
+      <LineSymbolizer stroke="#fa8072" stroke-dasharray="1, 4" stroke-linecap="round" stroke-linejoin="round" stroke-width="1" />
     </Rule>
     <Rule>
       <MaxScaleDenominator>50000</MaxScaleDenominator>
       <MinScaleDenominator>25000</MinScaleDenominator>
       <Filter><![CDATA[([feature] = 'highway_path') and ([bicycle] != 'designated') and ([horse] != 'designated') and ([access] != 'no') and ([int_surface] = 'unpaved')]]></Filter>
-      <LineSymbolizer stroke="#b37614" stroke-dasharray="1, 3" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.7" />
+      <LineSymbolizer stroke="#fa8072" stroke-dasharray="1, 3" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.7" />
     </Rule>
     <Rule>
       <MaxScaleDenominator>1500</MaxScaleDenominator>
       <Filter><![CDATA[([feature] = 'highway_path') and ([bicycle] != 'designated') and ([horse] != 'designated') and ([access] != 'no') and ([int_surface] = null)]]></Filter>
-      <LineSymbolizer stroke="#b37614" stroke-dasharray="1, 4, 2, 3" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.6" />
+      <LineSymbolizer stroke="#fa8072" stroke-dasharray="1, 4, 2, 3" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.6" />
     </Rule>
     <Rule>
       <MaxScaleDenominator>2500</MaxScaleDenominator>
       <MinScaleDenominator>1500</MinScaleDenominator>
       <Filter><![CDATA[([feature] = 'highway_path') and ([bicycle] != 'designated') and ([horse] != 'designated') and ([access] != 'no') and ([int_surface] = null)]]></Filter>
-      <LineSymbolizer stroke="#b37614" stroke-dasharray="1, 4, 2, 3" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.3" />
+      <LineSymbolizer stroke="#fa8072" stroke-dasharray="1, 4, 2, 3" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.3" />
     </Rule>
     <Rule>
       <MaxScaleDenominator>12500</MaxScaleDenominator>
       <MinScaleDenominator>2500</MinScaleDenominator>
       <Filter><![CDATA[([feature] = 'highway_path') and ([bicycle] != 'designated') and ([horse] != 'designated') and ([access] != 'no') and ([int_surface] = null)]]></Filter>
-      <LineSymbolizer stroke="#b37614" stroke-dasharray="1, 4, 2, 3" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.3" />
+      <LineSymbolizer stroke="#fa8072" stroke-dasharray="1, 4, 2, 3" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.3" />
     </Rule>
     <Rule>
       <MaxScaleDenominator>25000</MaxScaleDenominator>
       <MinScaleDenominator>12500</MinScaleDenominator>
       <Filter><![CDATA[([feature] = 'highway_path') and ([bicycle] != 'designated') and ([horse] != 'designated') and ([access] != 'no') and ([int_surface] = null)]]></Filter>
-      <LineSymbolizer stroke="#b37614" stroke-dasharray="1, 3, 2, 4" stroke-linecap="round" stroke-linejoin="round" stroke-width="1" />
+      <LineSymbolizer stroke="#fa8072" stroke-dasharray="1, 3, 2, 4" stroke-linecap="round" stroke-linejoin="round" stroke-width="1" />
     </Rule>
     <Rule>
       <MaxScaleDenominator>50000</MaxScaleDenominator>
       <MinScaleDenominator>25000</MinScaleDenominator>
       <Filter><![CDATA[([feature] = 'highway_path') and ([bicycle] != 'designated') and ([horse] != 'designated') and ([access] != 'no') and ([int_surface] = null)]]></Filter>
-      <LineSymbolizer stroke="#b37614" stroke-dasharray="1, 3" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.7" />
+      <LineSymbolizer stroke="#fa8072" stroke-dasharray="1, 3" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.7" />
     </Rule>
     <Rule>
       <MaxScaleDenominator>1500</MaxScaleDenominator>
       <Filter><![CDATA[([feature] = 'highway_path') and ([bicycle] != 'designated') and ([horse] != 'designated') and ([access] != 'no') and ([int_surface] = 'paved')]]></Filter>
-      <LineSymbolizer stroke="#b37614" stroke-dasharray="3, 3" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.6" />
+      <LineSymbolizer stroke="#fa8072" stroke-dasharray="3, 3" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.6" />
     </Rule>
     <Rule>
       <MaxScaleDenominator>2500</MaxScaleDenominator>
       <MinScaleDenominator>1500</MinScaleDenominator>
       <Filter><![CDATA[([feature] = 'highway_path') and ([bicycle] != 'designated') and ([horse] != 'designated') and ([access] != 'no') and ([int_surface] = 'paved')]]></Filter>
-      <LineSymbolizer stroke="#b37614" stroke-dasharray="3, 3" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.3" />
+      <LineSymbolizer stroke="#fa8072" stroke-dasharray="3, 3" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.3" />
     </Rule>
     <Rule>
       <MaxScaleDenominator>5000</MaxScaleDenominator>
       <MinScaleDenominator>2500</MinScaleDenominator>
       <Filter><![CDATA[([feature] = 'highway_path') and ([bicycle] != 'designated') and ([horse] != 'designated') and ([access] != 'no') and ([int_surface] = 'paved')]]></Filter>
-      <LineSymbolizer stroke="#b37614" stroke-dasharray="3, 3" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.3" />
+      <LineSymbolizer stroke="#fa8072" stroke-dasharray="3, 3" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.3" />
     </Rule>
     <Rule>
       <MaxScaleDenominator>12500</MaxScaleDenominator>
       <MinScaleDenominator>5000</MinScaleDenominator>
       <Filter><![CDATA[([feature] = 'highway_path') and ([bicycle] != 'designated') and ([horse] != 'designated') and ([access] != 'no') and ([int_surface] = 'paved')]]></Filter>
-      <LineSymbolizer stroke="#b37614" stroke-dasharray="3, 3.5" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.3" />
+      <LineSymbolizer stroke="#fa8072" stroke-dasharray="3, 3.5" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.3" />
     </Rule>
     <Rule>
       <MaxScaleDenominator>25000</MaxScaleDenominator>
       <MinScaleDenominator>12500</MinScaleDenominator>
       <Filter><![CDATA[([feature] = 'highway_path') and ([bicycle] != 'designated') and ([horse] != 'designated') and ([access] != 'no') and ([int_surface] = 'paved')]]></Filter>
-      <LineSymbolizer stroke="#b37614" stroke-dasharray="2, 3.5" stroke-linecap="round" stroke-linejoin="round" stroke-width="1" />
+      <LineSymbolizer stroke="#fa8072" stroke-dasharray="2, 3.5" stroke-linecap="round" stroke-linejoin="round" stroke-width="1" />
     </Rule>
     <Rule>
       <MaxScaleDenominator>50000</MaxScaleDenominator>
       <MinScaleDenominator>25000</MinScaleDenominator>
       <Filter><![CDATA[([feature] = 'highway_path') and ([bicycle] != 'designated') and ([horse] != 'designated') and ([access] != 'no') and ([int_surface] = 'paved')]]></Filter>
-      <LineSymbolizer stroke="#b37614" stroke-dasharray="1, 3" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.7" />
+      <LineSymbolizer stroke="#fa8072" stroke-dasharray="1, 3" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.7" />
     </Rule>
     <Rule>
       <MaxScaleDenominator>1500</MaxScaleDenominator>
@@ -14288,25 +14465,25 @@
     <Rule>
       <MaxScaleDenominator>1500</MaxScaleDenominator>
       <Filter><![CDATA[([feature] = 'highway_path') and ([bicycle] != 'designated') and ([horse] != 'designated') and ([int_surface] = 'unpaved')]]></Filter>
-      <LineSymbolizer stroke="#b37614" stroke-dasharray="1, 4" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.6" />
+      <LineSymbolizer stroke="#fa8072" stroke-dasharray="1, 4" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.6" />
     </Rule>
     <Rule>
       <MaxScaleDenominator>2500</MaxScaleDenominator>
       <MinScaleDenominator>1500</MinScaleDenominator>
       <Filter><![CDATA[([feature] = 'highway_path') and ([bicycle] != 'designated') and ([horse] != 'designated') and ([int_surface] = 'unpaved')]]></Filter>
-      <LineSymbolizer stroke="#b37614" stroke-dasharray="1, 4" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.3" />
+      <LineSymbolizer stroke="#fa8072" stroke-dasharray="1, 4" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.3" />
     </Rule>
     <Rule>
       <MaxScaleDenominator>12500</MaxScaleDenominator>
       <MinScaleDenominator>2500</MinScaleDenominator>
       <Filter><![CDATA[([feature] = 'highway_path') and ([bicycle] != 'designated') and ([horse] != 'designated') and ([int_surface] = 'unpaved')]]></Filter>
-      <LineSymbolizer stroke="#b37614" stroke-dasharray="1, 4" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.3" />
+      <LineSymbolizer stroke="#fa8072" stroke-dasharray="1, 4" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.3" />
     </Rule>
     <Rule>
       <MaxScaleDenominator>25000</MaxScaleDenominator>
       <MinScaleDenominator>12500</MinScaleDenominator>
       <Filter><![CDATA[([feature] = 'highway_path') and ([bicycle] != 'designated') and ([horse] != 'designated') and ([int_surface] = 'unpaved')]]></Filter>
-      <LineSymbolizer stroke="#b37614" stroke-dasharray="1, 4" stroke-linecap="round" stroke-linejoin="round" stroke-width="1" />
+      <LineSymbolizer stroke="#fa8072" stroke-dasharray="1, 4" stroke-linecap="round" stroke-linejoin="round" stroke-width="1" />
     </Rule>
     <Rule>
       <MaxScaleDenominator>1500</MaxScaleDenominator>
@@ -14334,25 +14511,25 @@
     <Rule>
       <MaxScaleDenominator>1500</MaxScaleDenominator>
       <Filter><![CDATA[([feature] = 'highway_path') and ([bicycle] != 'designated') and ([horse] != 'designated') and ([int_surface] = null)]]></Filter>
-      <LineSymbolizer stroke="#b37614" stroke-dasharray="1, 4, 2, 3" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.6" />
+      <LineSymbolizer stroke="#fa8072" stroke-dasharray="1, 4, 2, 3" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.6" />
     </Rule>
     <Rule>
       <MaxScaleDenominator>2500</MaxScaleDenominator>
       <MinScaleDenominator>1500</MinScaleDenominator>
       <Filter><![CDATA[([feature] = 'highway_path') and ([bicycle] != 'designated') and ([horse] != 'designated') and ([int_surface] = null)]]></Filter>
-      <LineSymbolizer stroke="#b37614" stroke-dasharray="1, 4, 2, 3" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.3" />
+      <LineSymbolizer stroke="#fa8072" stroke-dasharray="1, 4, 2, 3" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.3" />
     </Rule>
     <Rule>
       <MaxScaleDenominator>12500</MaxScaleDenominator>
       <MinScaleDenominator>2500</MinScaleDenominator>
       <Filter><![CDATA[([feature] = 'highway_path') and ([bicycle] != 'designated') and ([horse] != 'designated') and ([int_surface] = null)]]></Filter>
-      <LineSymbolizer stroke="#b37614" stroke-dasharray="1, 4, 2, 3" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.3" />
+      <LineSymbolizer stroke="#fa8072" stroke-dasharray="1, 4, 2, 3" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.3" />
     </Rule>
     <Rule>
       <MaxScaleDenominator>25000</MaxScaleDenominator>
       <MinScaleDenominator>12500</MinScaleDenominator>
       <Filter><![CDATA[([feature] = 'highway_path') and ([bicycle] != 'designated') and ([horse] != 'designated') and ([int_surface] = null)]]></Filter>
-      <LineSymbolizer stroke="#b37614" stroke-dasharray="1, 3, 2, 4" stroke-linecap="round" stroke-linejoin="round" stroke-width="1" />
+      <LineSymbolizer stroke="#fa8072" stroke-dasharray="1, 3, 2, 4" stroke-linecap="round" stroke-linejoin="round" stroke-width="1" />
     </Rule>
     <Rule>
       <MaxScaleDenominator>1500</MaxScaleDenominator>
@@ -14386,31 +14563,31 @@
     <Rule>
       <MaxScaleDenominator>1500</MaxScaleDenominator>
       <Filter><![CDATA[([feature] = 'highway_path') and ([bicycle] != 'designated') and ([horse] != 'designated') and ([int_surface] = 'paved')]]></Filter>
-      <LineSymbolizer stroke="#b37614" stroke-dasharray="3, 3" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.6" />
+      <LineSymbolizer stroke="#fa8072" stroke-dasharray="3, 3" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.6" />
     </Rule>
     <Rule>
       <MaxScaleDenominator>2500</MaxScaleDenominator>
       <MinScaleDenominator>1500</MinScaleDenominator>
       <Filter><![CDATA[([feature] = 'highway_path') and ([bicycle] != 'designated') and ([horse] != 'designated') and ([int_surface] = 'paved')]]></Filter>
-      <LineSymbolizer stroke="#b37614" stroke-dasharray="3, 3" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.3" />
+      <LineSymbolizer stroke="#fa8072" stroke-dasharray="3, 3" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.3" />
     </Rule>
     <Rule>
       <MaxScaleDenominator>5000</MaxScaleDenominator>
       <MinScaleDenominator>2500</MinScaleDenominator>
       <Filter><![CDATA[([feature] = 'highway_path') and ([bicycle] != 'designated') and ([horse] != 'designated') and ([int_surface] = 'paved')]]></Filter>
-      <LineSymbolizer stroke="#b37614" stroke-dasharray="3, 3" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.3" />
+      <LineSymbolizer stroke="#fa8072" stroke-dasharray="3, 3" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.3" />
     </Rule>
     <Rule>
       <MaxScaleDenominator>12500</MaxScaleDenominator>
       <MinScaleDenominator>5000</MinScaleDenominator>
       <Filter><![CDATA[([feature] = 'highway_path') and ([bicycle] != 'designated') and ([horse] != 'designated') and ([int_surface] = 'paved')]]></Filter>
-      <LineSymbolizer stroke="#b37614" stroke-dasharray="3, 3.5" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.3" />
+      <LineSymbolizer stroke="#fa8072" stroke-dasharray="3, 3.5" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.3" />
     </Rule>
     <Rule>
       <MaxScaleDenominator>25000</MaxScaleDenominator>
       <MinScaleDenominator>12500</MinScaleDenominator>
       <Filter><![CDATA[([feature] = 'highway_path') and ([bicycle] != 'designated') and ([horse] != 'designated') and ([int_surface] = 'paved')]]></Filter>
-      <LineSymbolizer stroke="#b37614" stroke-dasharray="2, 3.5" stroke-linecap="round" stroke-linejoin="round" stroke-width="1" />
+      <LineSymbolizer stroke="#fa8072" stroke-dasharray="2, 3.5" stroke-linecap="round" stroke-linejoin="round" stroke-width="1" />
     </Rule>
     <Rule>
       <MaxScaleDenominator>1500</MaxScaleDenominator>
@@ -14705,95 +14882,95 @@
     <Rule>
       <MaxScaleDenominator>1500</MaxScaleDenominator>
       <Filter><![CDATA[([feature] = 'highway_footway') and ([access] != 'no') and ([int_surface] = 'unpaved')]]></Filter>
-      <LineSymbolizer stroke="#b37614" stroke-dasharray="1, 4" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.6" />
+      <LineSymbolizer stroke="#fa8072" stroke-dasharray="1, 4" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.6" />
     </Rule>
     <Rule>
       <MaxScaleDenominator>2500</MaxScaleDenominator>
       <MinScaleDenominator>1500</MinScaleDenominator>
       <Filter><![CDATA[([feature] = 'highway_footway') and ([access] != 'no') and ([int_surface] = 'unpaved')]]></Filter>
-      <LineSymbolizer stroke="#b37614" stroke-dasharray="1, 4" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.3" />
+      <LineSymbolizer stroke="#fa8072" stroke-dasharray="1, 4" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.3" />
     </Rule>
     <Rule>
       <MaxScaleDenominator>12500</MaxScaleDenominator>
       <MinScaleDenominator>2500</MinScaleDenominator>
       <Filter><![CDATA[([feature] = 'highway_footway') and ([access] != 'no') and ([int_surface] = 'unpaved')]]></Filter>
-      <LineSymbolizer stroke="#b37614" stroke-dasharray="1, 4" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.3" />
+      <LineSymbolizer stroke="#fa8072" stroke-dasharray="1, 4" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.3" />
     </Rule>
     <Rule>
       <MaxScaleDenominator>25000</MaxScaleDenominator>
       <MinScaleDenominator>12500</MinScaleDenominator>
       <Filter><![CDATA[([feature] = 'highway_footway') and ([access] != 'no') and ([int_surface] = 'unpaved')]]></Filter>
-      <LineSymbolizer stroke="#b37614" stroke-dasharray="1, 4" stroke-linecap="round" stroke-linejoin="round" stroke-width="1" />
+      <LineSymbolizer stroke="#fa8072" stroke-dasharray="1, 4" stroke-linecap="round" stroke-linejoin="round" stroke-width="1" />
     </Rule>
     <Rule>
       <MaxScaleDenominator>50000</MaxScaleDenominator>
       <MinScaleDenominator>25000</MinScaleDenominator>
       <Filter><![CDATA[([feature] = 'highway_footway') and ([access] != 'no') and ([int_surface] = 'unpaved')]]></Filter>
-      <LineSymbolizer stroke="#b37614" stroke-dasharray="1, 3" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.7" />
+      <LineSymbolizer stroke="#fa8072" stroke-dasharray="1, 3" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.7" />
     </Rule>
     <Rule>
       <MaxScaleDenominator>1500</MaxScaleDenominator>
       <Filter><![CDATA[([feature] = 'highway_footway') and ([access] != 'no') and ([int_surface] = null)]]></Filter>
-      <LineSymbolizer stroke="#b37614" stroke-dasharray="1, 4, 2, 3" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.6" />
+      <LineSymbolizer stroke="#fa8072" stroke-dasharray="1, 4, 2, 3" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.6" />
     </Rule>
     <Rule>
       <MaxScaleDenominator>2500</MaxScaleDenominator>
       <MinScaleDenominator>1500</MinScaleDenominator>
       <Filter><![CDATA[([feature] = 'highway_footway') and ([access] != 'no') and ([int_surface] = null)]]></Filter>
-      <LineSymbolizer stroke="#b37614" stroke-dasharray="1, 4, 2, 3" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.3" />
+      <LineSymbolizer stroke="#fa8072" stroke-dasharray="1, 4, 2, 3" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.3" />
     </Rule>
     <Rule>
       <MaxScaleDenominator>12500</MaxScaleDenominator>
       <MinScaleDenominator>2500</MinScaleDenominator>
       <Filter><![CDATA[([feature] = 'highway_footway') and ([access] != 'no') and ([int_surface] = null)]]></Filter>
-      <LineSymbolizer stroke="#b37614" stroke-dasharray="1, 4, 2, 3" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.3" />
+      <LineSymbolizer stroke="#fa8072" stroke-dasharray="1, 4, 2, 3" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.3" />
     </Rule>
     <Rule>
       <MaxScaleDenominator>25000</MaxScaleDenominator>
       <MinScaleDenominator>12500</MinScaleDenominator>
       <Filter><![CDATA[([feature] = 'highway_footway') and ([access] != 'no') and ([int_surface] = null)]]></Filter>
-      <LineSymbolizer stroke="#b37614" stroke-dasharray="1, 3, 2, 4" stroke-linecap="round" stroke-linejoin="round" stroke-width="1" />
+      <LineSymbolizer stroke="#fa8072" stroke-dasharray="1, 3, 2, 4" stroke-linecap="round" stroke-linejoin="round" stroke-width="1" />
     </Rule>
     <Rule>
       <MaxScaleDenominator>50000</MaxScaleDenominator>
       <MinScaleDenominator>25000</MinScaleDenominator>
       <Filter><![CDATA[([feature] = 'highway_footway') and ([access] != 'no') and ([int_surface] = null)]]></Filter>
-      <LineSymbolizer stroke="#b37614" stroke-dasharray="1, 3" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.7" />
+      <LineSymbolizer stroke="#fa8072" stroke-dasharray="1, 3" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.7" />
     </Rule>
     <Rule>
       <MaxScaleDenominator>1500</MaxScaleDenominator>
       <Filter><![CDATA[([feature] = 'highway_footway') and ([access] != 'no') and ([int_surface] = 'paved')]]></Filter>
-      <LineSymbolizer stroke="#b37614" stroke-dasharray="3, 3" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.6" />
+      <LineSymbolizer stroke="#fa8072" stroke-dasharray="3, 3" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.6" />
     </Rule>
     <Rule>
       <MaxScaleDenominator>2500</MaxScaleDenominator>
       <MinScaleDenominator>1500</MinScaleDenominator>
       <Filter><![CDATA[([feature] = 'highway_footway') and ([access] != 'no') and ([int_surface] = 'paved')]]></Filter>
-      <LineSymbolizer stroke="#b37614" stroke-dasharray="3, 3" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.3" />
+      <LineSymbolizer stroke="#fa8072" stroke-dasharray="3, 3" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.3" />
     </Rule>
     <Rule>
       <MaxScaleDenominator>5000</MaxScaleDenominator>
       <MinScaleDenominator>2500</MinScaleDenominator>
       <Filter><![CDATA[([feature] = 'highway_footway') and ([access] != 'no') and ([int_surface] = 'paved')]]></Filter>
-      <LineSymbolizer stroke="#b37614" stroke-dasharray="3, 3" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.3" />
+      <LineSymbolizer stroke="#fa8072" stroke-dasharray="3, 3" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.3" />
     </Rule>
     <Rule>
       <MaxScaleDenominator>12500</MaxScaleDenominator>
       <MinScaleDenominator>5000</MinScaleDenominator>
       <Filter><![CDATA[([feature] = 'highway_footway') and ([access] != 'no') and ([int_surface] = 'paved')]]></Filter>
-      <LineSymbolizer stroke="#b37614" stroke-dasharray="3, 3.5" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.3" />
+      <LineSymbolizer stroke="#fa8072" stroke-dasharray="3, 3.5" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.3" />
     </Rule>
     <Rule>
       <MaxScaleDenominator>25000</MaxScaleDenominator>
       <MinScaleDenominator>12500</MinScaleDenominator>
       <Filter><![CDATA[([feature] = 'highway_footway') and ([access] != 'no') and ([int_surface] = 'paved')]]></Filter>
-      <LineSymbolizer stroke="#b37614" stroke-dasharray="2, 3.5" stroke-linecap="round" stroke-linejoin="round" stroke-width="1" />
+      <LineSymbolizer stroke="#fa8072" stroke-dasharray="2, 3.5" stroke-linecap="round" stroke-linejoin="round" stroke-width="1" />
     </Rule>
     <Rule>
       <MaxScaleDenominator>50000</MaxScaleDenominator>
       <MinScaleDenominator>25000</MinScaleDenominator>
       <Filter><![CDATA[([feature] = 'highway_footway') and ([access] != 'no') and ([int_surface] = 'paved')]]></Filter>
-      <LineSymbolizer stroke="#b37614" stroke-dasharray="1, 3" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.7" />
+      <LineSymbolizer stroke="#fa8072" stroke-dasharray="1, 3" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.7" />
     </Rule>
     <Rule>
       <MaxScaleDenominator>12500</MaxScaleDenominator>
@@ -15052,25 +15229,25 @@
     <Rule>
       <MaxScaleDenominator>1500</MaxScaleDenominator>
       <Filter><![CDATA[([feature] = 'highway_footway') and ([int_surface] = 'unpaved')]]></Filter>
-      <LineSymbolizer stroke="#b37614" stroke-dasharray="1, 4" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.6" />
+      <LineSymbolizer stroke="#fa8072" stroke-dasharray="1, 4" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.6" />
     </Rule>
     <Rule>
       <MaxScaleDenominator>2500</MaxScaleDenominator>
       <MinScaleDenominator>1500</MinScaleDenominator>
       <Filter><![CDATA[([feature] = 'highway_footway') and ([int_surface] = 'unpaved')]]></Filter>
-      <LineSymbolizer stroke="#b37614" stroke-dasharray="1, 4" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.3" />
+      <LineSymbolizer stroke="#fa8072" stroke-dasharray="1, 4" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.3" />
     </Rule>
     <Rule>
       <MaxScaleDenominator>12500</MaxScaleDenominator>
       <MinScaleDenominator>2500</MinScaleDenominator>
       <Filter><![CDATA[([feature] = 'highway_footway') and ([int_surface] = 'unpaved')]]></Filter>
-      <LineSymbolizer stroke="#b37614" stroke-dasharray="1, 4" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.3" />
+      <LineSymbolizer stroke="#fa8072" stroke-dasharray="1, 4" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.3" />
     </Rule>
     <Rule>
       <MaxScaleDenominator>25000</MaxScaleDenominator>
       <MinScaleDenominator>12500</MinScaleDenominator>
       <Filter><![CDATA[([feature] = 'highway_footway') and ([int_surface] = 'unpaved')]]></Filter>
-      <LineSymbolizer stroke="#b37614" stroke-dasharray="1, 4" stroke-linecap="round" stroke-linejoin="round" stroke-width="1" />
+      <LineSymbolizer stroke="#fa8072" stroke-dasharray="1, 4" stroke-linecap="round" stroke-linejoin="round" stroke-width="1" />
     </Rule>
     <Rule>
       <MaxScaleDenominator>1500</MaxScaleDenominator>
@@ -15098,25 +15275,25 @@
     <Rule>
       <MaxScaleDenominator>1500</MaxScaleDenominator>
       <Filter><![CDATA[([feature] = 'highway_footway') and ([int_surface] = null)]]></Filter>
-      <LineSymbolizer stroke="#b37614" stroke-dasharray="1, 4, 2, 3" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.6" />
+      <LineSymbolizer stroke="#fa8072" stroke-dasharray="1, 4, 2, 3" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.6" />
     </Rule>
     <Rule>
       <MaxScaleDenominator>2500</MaxScaleDenominator>
       <MinScaleDenominator>1500</MinScaleDenominator>
       <Filter><![CDATA[([feature] = 'highway_footway') and ([int_surface] = null)]]></Filter>
-      <LineSymbolizer stroke="#b37614" stroke-dasharray="1, 4, 2, 3" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.3" />
+      <LineSymbolizer stroke="#fa8072" stroke-dasharray="1, 4, 2, 3" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.3" />
     </Rule>
     <Rule>
       <MaxScaleDenominator>12500</MaxScaleDenominator>
       <MinScaleDenominator>2500</MinScaleDenominator>
       <Filter><![CDATA[([feature] = 'highway_footway') and ([int_surface] = null)]]></Filter>
-      <LineSymbolizer stroke="#b37614" stroke-dasharray="1, 4, 2, 3" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.3" />
+      <LineSymbolizer stroke="#fa8072" stroke-dasharray="1, 4, 2, 3" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.3" />
     </Rule>
     <Rule>
       <MaxScaleDenominator>25000</MaxScaleDenominator>
       <MinScaleDenominator>12500</MinScaleDenominator>
       <Filter><![CDATA[([feature] = 'highway_footway') and ([int_surface] = null)]]></Filter>
-      <LineSymbolizer stroke="#b37614" stroke-dasharray="1, 3, 2, 4" stroke-linecap="round" stroke-linejoin="round" stroke-width="1" />
+      <LineSymbolizer stroke="#fa8072" stroke-dasharray="1, 3, 2, 4" stroke-linecap="round" stroke-linejoin="round" stroke-width="1" />
     </Rule>
     <Rule>
       <MaxScaleDenominator>1500</MaxScaleDenominator>
@@ -15150,31 +15327,31 @@
     <Rule>
       <MaxScaleDenominator>1500</MaxScaleDenominator>
       <Filter><![CDATA[([feature] = 'highway_footway') and ([int_surface] = 'paved')]]></Filter>
-      <LineSymbolizer stroke="#b37614" stroke-dasharray="3, 3" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.6" />
+      <LineSymbolizer stroke="#fa8072" stroke-dasharray="3, 3" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.6" />
     </Rule>
     <Rule>
       <MaxScaleDenominator>2500</MaxScaleDenominator>
       <MinScaleDenominator>1500</MinScaleDenominator>
       <Filter><![CDATA[([feature] = 'highway_footway') and ([int_surface] = 'paved')]]></Filter>
-      <LineSymbolizer stroke="#b37614" stroke-dasharray="3, 3" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.3" />
+      <LineSymbolizer stroke="#fa8072" stroke-dasharray="3, 3" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.3" />
     </Rule>
     <Rule>
       <MaxScaleDenominator>5000</MaxScaleDenominator>
       <MinScaleDenominator>2500</MinScaleDenominator>
       <Filter><![CDATA[([feature] = 'highway_footway') and ([int_surface] = 'paved')]]></Filter>
-      <LineSymbolizer stroke="#b37614" stroke-dasharray="3, 3" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.3" />
+      <LineSymbolizer stroke="#fa8072" stroke-dasharray="3, 3" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.3" />
     </Rule>
     <Rule>
       <MaxScaleDenominator>12500</MaxScaleDenominator>
       <MinScaleDenominator>5000</MinScaleDenominator>
       <Filter><![CDATA[([feature] = 'highway_footway') and ([int_surface] = 'paved')]]></Filter>
-      <LineSymbolizer stroke="#b37614" stroke-dasharray="3, 3.5" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.3" />
+      <LineSymbolizer stroke="#fa8072" stroke-dasharray="3, 3.5" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.3" />
     </Rule>
     <Rule>
       <MaxScaleDenominator>25000</MaxScaleDenominator>
       <MinScaleDenominator>12500</MinScaleDenominator>
       <Filter><![CDATA[([feature] = 'highway_footway') and ([int_surface] = 'paved')]]></Filter>
-      <LineSymbolizer stroke="#b37614" stroke-dasharray="2, 3.5" stroke-linecap="round" stroke-linejoin="round" stroke-width="1" />
+      <LineSymbolizer stroke="#fa8072" stroke-dasharray="2, 3.5" stroke-linecap="round" stroke-linejoin="round" stroke-width="1" />
     </Rule>
     <Rule>
       <MaxScaleDenominator>25000</MaxScaleDenominator>
@@ -15184,7 +15361,7 @@
     <Rule>
       <MaxScaleDenominator>50000</MaxScaleDenominator>
       <Filter><![CDATA[([feature] = 'highway_path') and ([bicycle] != 'designated') and ([horse] != 'designated') and ([access] != 'no')]]></Filter>
-      <LineSymbolizer stroke="#b37614" stroke-dasharray="1, 3" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.7" />
+      <LineSymbolizer stroke="#fa8072" stroke-dasharray="1, 3" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.7" />
     </Rule>
     <Rule>
       <MaxScaleDenominator>2500</MaxScaleDenominator>
@@ -15637,18 +15814,18 @@
     <Rule>
       <MaxScaleDenominator>25000</MaxScaleDenominator>
       <Filter><![CDATA[([feature] = 'highway_path') and ([bicycle] != 'designated') and ([horse] != 'designated')]]></Filter>
-      <LineSymbolizer stroke="#b37614" stroke-dasharray="1, 3" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.7" />
+      <LineSymbolizer stroke="#fa8072" stroke-dasharray="1, 3" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.7" />
     </Rule>
     <Rule>
       <MaxScaleDenominator>25000</MaxScaleDenominator>
       <Filter><![CDATA[([feature] = 'highway_steps') and ([access] != 'no')]]></Filter>
-      <LineSymbolizer stroke="#b37614" stroke-dasharray="2, 1" stroke-width="9" />
+      <LineSymbolizer stroke="#b5903a" stroke-dasharray="2, 1" stroke-width="3" />
     </Rule>
     <Rule>
       <MaxScaleDenominator>50000</MaxScaleDenominator>
       <MinScaleDenominator>25000</MinScaleDenominator>
       <Filter><![CDATA[([feature] = 'highway_steps') and ([access] != 'no')]]></Filter>
-      <LineSymbolizer stroke="#b37614" stroke-dasharray="2, 1" stroke-width="2.7" />
+      <LineSymbolizer stroke="#b5903a" stroke-dasharray="2, 1" stroke-width="0.7" />
     </Rule>
     <Rule>
       <MaxScaleDenominator>25000</MaxScaleDenominator>
@@ -15760,17 +15937,17 @@
     <Rule>
       <MaxScaleDenominator>50000</MaxScaleDenominator>
       <Filter><![CDATA[([feature] = 'highway_footway') and ([access] != 'no')]]></Filter>
-      <LineSymbolizer stroke="#b37614" stroke-dasharray="1, 3" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.7" />
+      <LineSymbolizer stroke="#fa8072" stroke-dasharray="1, 3" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.7" />
     </Rule>
     <Rule>
       <MaxScaleDenominator>25000</MaxScaleDenominator>
       <Filter><![CDATA[([feature] = 'highway_steps') and ([access] = 'no')]]></Filter>
-      <LineSymbolizer stroke="#bbbbbb" stroke-dasharray="2, 1" stroke-width="9" />
+      <LineSymbolizer stroke="#bbbbbb" stroke-dasharray="2, 1" stroke-width="3" />
     </Rule>
     <Rule>
       <MaxScaleDenominator>25000</MaxScaleDenominator>
       <Filter><![CDATA[([feature] = 'highway_steps')]]></Filter>
-      <LineSymbolizer stroke="#b37614" stroke-dasharray="2, 1" stroke-width="9" />
+      <LineSymbolizer stroke="#b5903a" stroke-dasharray="2, 1" stroke-width="3" />
     </Rule>
     <Rule>
       <MaxScaleDenominator>1500</MaxScaleDenominator>
@@ -15843,7 +16020,7 @@
     <Rule>
       <MaxScaleDenominator>25000</MaxScaleDenominator>
       <Filter><![CDATA[([feature] = 'highway_footway')]]></Filter>
-      <LineSymbolizer stroke="#b37614" stroke-dasharray="1, 3" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.7" />
+      <LineSymbolizer stroke="#fa8072" stroke-dasharray="1, 3" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.7" />
     </Rule>
     <Rule>
       <MaxScaleDenominator>12500</MaxScaleDenominator>
@@ -16136,13 +16313,13 @@
     <Rule>
       <MaxScaleDenominator>25000</MaxScaleDenominator>
       <Filter><![CDATA[([feature] = 'highway_steps') and ([access] != 'no')]]></Filter>
-      <LineSymbolizer stroke="#ffffff" stroke-linecap="round" stroke-linejoin="round" stroke-width="11" />
+      <LineSymbolizer stroke="#ffffff" stroke-linecap="round" stroke-linejoin="round" stroke-width="5" />
     </Rule>
     <Rule>
       <MaxScaleDenominator>50000</MaxScaleDenominator>
       <MinScaleDenominator>25000</MinScaleDenominator>
       <Filter><![CDATA[([feature] = 'highway_steps') and ([access] != 'no')]]></Filter>
-      <LineSymbolizer stroke="#ffffff" stroke-linecap="round" stroke-linejoin="round" stroke-width="4.7" />
+      <LineSymbolizer stroke="#ffffff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.7" />
     </Rule>
     <Rule>
       <MaxScaleDenominator>1500</MaxScaleDenominator>
@@ -16249,7 +16426,7 @@
     <Rule>
       <MaxScaleDenominator>25000</MaxScaleDenominator>
       <Filter><![CDATA[([feature] = 'highway_steps')]]></Filter>
-      <LineSymbolizer stroke="#ffffff" stroke-linecap="round" stroke-linejoin="round" stroke-width="11" />
+      <LineSymbolizer stroke="#ffffff" stroke-linecap="round" stroke-linejoin="round" stroke-width="5" />
     </Rule>
     <Rule>
       <MaxScaleDenominator>1500</MaxScaleDenominator>
@@ -16539,13 +16716,13 @@
     <Rule>
       <MaxScaleDenominator>25000</MaxScaleDenominator>
       <Filter><![CDATA[([feature] = 'highway_steps') and ([access] != 'no')]]></Filter>
-      <LineSymbolizer stroke="#808080" stroke-dasharray="4, 2" stroke-width="13" />
+      <LineSymbolizer stroke="#808080" stroke-dasharray="4, 2" stroke-width="7" />
     </Rule>
     <Rule>
       <MaxScaleDenominator>50000</MaxScaleDenominator>
       <MinScaleDenominator>25000</MinScaleDenominator>
       <Filter><![CDATA[([feature] = 'highway_steps') and ([access] != 'no')]]></Filter>
-      <LineSymbolizer stroke="#808080" stroke-dasharray="4, 2" stroke-width="6.7" />
+      <LineSymbolizer stroke="#808080" stroke-dasharray="4, 2" stroke-width="4.7" />
     </Rule>
     <Rule>
       <MaxScaleDenominator>25000</MaxScaleDenominator>
@@ -16606,7 +16783,7 @@
     <Rule>
       <MaxScaleDenominator>25000</MaxScaleDenominator>
       <Filter><![CDATA[([feature] = 'highway_steps')]]></Filter>
-      <LineSymbolizer stroke="#808080" stroke-dasharray="4, 2" stroke-width="13" />
+      <LineSymbolizer stroke="#808080" stroke-dasharray="4, 2" stroke-width="7" />
     </Rule>
     <Rule>
       <MaxScaleDenominator>750</MaxScaleDenominator>
@@ -18955,140 +19132,140 @@
       <MaxScaleDenominator>1500</MaxScaleDenominator>
       <Filter><![CDATA[([feature] = 'highway_path') and ([bicycle] != 'designated') and ([horse] != 'designated') and ([access] != 'no') and ([int_surface] = 'unpaved')]]></Filter>
       <LineSymbolizer stroke="#ffffff" stroke-linecap="round" stroke-linejoin="round" stroke-opacity="0.4" stroke-width="3.6" />
-      <LineSymbolizer stroke="#b37614" stroke-dasharray="1, 4" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.6" />
+      <LineSymbolizer stroke="#fa8072" stroke-dasharray="1, 4" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.6" />
     </Rule>
     <Rule>
       <MaxScaleDenominator>2500</MaxScaleDenominator>
       <MinScaleDenominator>1500</MinScaleDenominator>
       <Filter><![CDATA[([feature] = 'highway_path') and ([bicycle] != 'designated') and ([horse] != 'designated') and ([access] != 'no') and ([int_surface] = 'unpaved')]]></Filter>
       <LineSymbolizer stroke="#ffffff" stroke-linecap="round" stroke-linejoin="round" stroke-opacity="0.4" stroke-width="3.3" />
-      <LineSymbolizer stroke="#b37614" stroke-dasharray="1, 4" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.3" />
+      <LineSymbolizer stroke="#fa8072" stroke-dasharray="1, 4" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.3" />
     </Rule>
     <Rule>
       <MaxScaleDenominator>12500</MaxScaleDenominator>
       <MinScaleDenominator>2500</MinScaleDenominator>
       <Filter><![CDATA[([feature] = 'highway_path') and ([bicycle] != 'designated') and ([horse] != 'designated') and ([access] != 'no') and ([int_surface] = 'unpaved')]]></Filter>
       <LineSymbolizer stroke="#ffffff" stroke-linecap="round" stroke-linejoin="round" stroke-opacity="0.4" stroke-width="3.3" />
-      <LineSymbolizer stroke="#b37614" stroke-dasharray="1, 4" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.3" />
+      <LineSymbolizer stroke="#fa8072" stroke-dasharray="1, 4" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.3" />
     </Rule>
     <Rule>
       <MaxScaleDenominator>25000</MaxScaleDenominator>
       <MinScaleDenominator>12500</MinScaleDenominator>
       <Filter><![CDATA[([feature] = 'highway_path') and ([bicycle] != 'designated') and ([horse] != 'designated') and ([access] != 'no') and ([int_surface] = 'unpaved')]]></Filter>
       <LineSymbolizer stroke="#ffffff" stroke-linecap="round" stroke-linejoin="round" stroke-opacity="0.4" stroke-width="3" />
-      <LineSymbolizer stroke="#b37614" stroke-dasharray="1, 4" stroke-linecap="round" stroke-linejoin="round" stroke-width="1" />
+      <LineSymbolizer stroke="#fa8072" stroke-dasharray="1, 4" stroke-linecap="round" stroke-linejoin="round" stroke-width="1" />
     </Rule>
     <Rule>
       <MaxScaleDenominator>50000</MaxScaleDenominator>
       <MinScaleDenominator>25000</MinScaleDenominator>
       <Filter><![CDATA[([feature] = 'highway_path') and ([bicycle] != 'designated') and ([horse] != 'designated') and ([access] != 'no') and ([int_surface] = 'unpaved')]]></Filter>
-      <LineSymbolizer stroke="#b37614" stroke-dasharray="1, 3" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.7" />
+      <LineSymbolizer stroke="#fa8072" stroke-dasharray="1, 3" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.7" />
     </Rule>
     <Rule>
       <MaxScaleDenominator>1500</MaxScaleDenominator>
       <Filter><![CDATA[([feature] = 'highway_path') and ([bicycle] != 'designated') and ([horse] != 'designated') and ([access] != 'no') and ([int_surface] = null)]]></Filter>
       <LineSymbolizer stroke="#ffffff" stroke-linecap="round" stroke-linejoin="round" stroke-opacity="0.4" stroke-width="3.6" />
-      <LineSymbolizer stroke="#b37614" stroke-dasharray="1, 4, 2, 3" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.6" />
+      <LineSymbolizer stroke="#fa8072" stroke-dasharray="1, 4, 2, 3" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.6" />
     </Rule>
     <Rule>
       <MaxScaleDenominator>2500</MaxScaleDenominator>
       <MinScaleDenominator>1500</MinScaleDenominator>
       <Filter><![CDATA[([feature] = 'highway_path') and ([bicycle] != 'designated') and ([horse] != 'designated') and ([access] != 'no') and ([int_surface] = null)]]></Filter>
       <LineSymbolizer stroke="#ffffff" stroke-linecap="round" stroke-linejoin="round" stroke-opacity="0.4" stroke-width="3.3" />
-      <LineSymbolizer stroke="#b37614" stroke-dasharray="1, 4, 2, 3" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.3" />
+      <LineSymbolizer stroke="#fa8072" stroke-dasharray="1, 4, 2, 3" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.3" />
     </Rule>
     <Rule>
       <MaxScaleDenominator>12500</MaxScaleDenominator>
       <MinScaleDenominator>2500</MinScaleDenominator>
       <Filter><![CDATA[([feature] = 'highway_path') and ([bicycle] != 'designated') and ([horse] != 'designated') and ([access] != 'no') and ([int_surface] = null)]]></Filter>
       <LineSymbolizer stroke="#ffffff" stroke-linecap="round" stroke-linejoin="round" stroke-opacity="0.4" stroke-width="3.3" />
-      <LineSymbolizer stroke="#b37614" stroke-dasharray="1, 4, 2, 3" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.3" />
+      <LineSymbolizer stroke="#fa8072" stroke-dasharray="1, 4, 2, 3" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.3" />
     </Rule>
     <Rule>
       <MaxScaleDenominator>25000</MaxScaleDenominator>
       <MinScaleDenominator>12500</MinScaleDenominator>
       <Filter><![CDATA[([feature] = 'highway_path') and ([bicycle] != 'designated') and ([horse] != 'designated') and ([access] != 'no') and ([int_surface] = null)]]></Filter>
       <LineSymbolizer stroke="#ffffff" stroke-linecap="round" stroke-linejoin="round" stroke-opacity="0.4" stroke-width="3" />
-      <LineSymbolizer stroke="#b37614" stroke-dasharray="1, 3, 2, 4" stroke-linecap="round" stroke-linejoin="round" stroke-width="1" />
+      <LineSymbolizer stroke="#fa8072" stroke-dasharray="1, 3, 2, 4" stroke-linecap="round" stroke-linejoin="round" stroke-width="1" />
     </Rule>
     <Rule>
       <MaxScaleDenominator>50000</MaxScaleDenominator>
       <MinScaleDenominator>25000</MinScaleDenominator>
       <Filter><![CDATA[([feature] = 'highway_path') and ([bicycle] != 'designated') and ([horse] != 'designated') and ([access] != 'no') and ([int_surface] = null)]]></Filter>
-      <LineSymbolizer stroke="#b37614" stroke-dasharray="1, 3" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.7" />
+      <LineSymbolizer stroke="#fa8072" stroke-dasharray="1, 3" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.7" />
     </Rule>
     <Rule>
       <MaxScaleDenominator>1500</MaxScaleDenominator>
       <Filter><![CDATA[([feature] = 'highway_path') and ([bicycle] != 'designated') and ([horse] != 'designated') and ([access] != 'no') and ([int_surface] = 'paved')]]></Filter>
       <LineSymbolizer stroke="#ffffff" stroke-linecap="round" stroke-linejoin="round" stroke-opacity="0.4" stroke-width="3.6" />
-      <LineSymbolizer stroke="#b37614" stroke-dasharray="3, 3" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.6" />
+      <LineSymbolizer stroke="#fa8072" stroke-dasharray="3, 3" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.6" />
     </Rule>
     <Rule>
       <MaxScaleDenominator>2500</MaxScaleDenominator>
       <MinScaleDenominator>1500</MinScaleDenominator>
       <Filter><![CDATA[([feature] = 'highway_path') and ([bicycle] != 'designated') and ([horse] != 'designated') and ([access] != 'no') and ([int_surface] = 'paved')]]></Filter>
       <LineSymbolizer stroke="#ffffff" stroke-linecap="round" stroke-linejoin="round" stroke-opacity="0.4" stroke-width="3.3" />
-      <LineSymbolizer stroke="#b37614" stroke-dasharray="3, 3" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.3" />
+      <LineSymbolizer stroke="#fa8072" stroke-dasharray="3, 3" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.3" />
     </Rule>
     <Rule>
       <MaxScaleDenominator>5000</MaxScaleDenominator>
       <MinScaleDenominator>2500</MinScaleDenominator>
       <Filter><![CDATA[([feature] = 'highway_path') and ([bicycle] != 'designated') and ([horse] != 'designated') and ([access] != 'no') and ([int_surface] = 'paved')]]></Filter>
       <LineSymbolizer stroke="#ffffff" stroke-linecap="round" stroke-linejoin="round" stroke-opacity="0.4" stroke-width="3.3" />
-      <LineSymbolizer stroke="#b37614" stroke-dasharray="3, 3" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.3" />
+      <LineSymbolizer stroke="#fa8072" stroke-dasharray="3, 3" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.3" />
     </Rule>
     <Rule>
       <MaxScaleDenominator>12500</MaxScaleDenominator>
       <MinScaleDenominator>5000</MinScaleDenominator>
       <Filter><![CDATA[([feature] = 'highway_path') and ([bicycle] != 'designated') and ([horse] != 'designated') and ([access] != 'no') and ([int_surface] = 'paved')]]></Filter>
       <LineSymbolizer stroke="#ffffff" stroke-linecap="round" stroke-linejoin="round" stroke-opacity="0.4" stroke-width="3.3" />
-      <LineSymbolizer stroke="#b37614" stroke-dasharray="3, 3.5" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.3" />
+      <LineSymbolizer stroke="#fa8072" stroke-dasharray="3, 3.5" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.3" />
     </Rule>
     <Rule>
       <MaxScaleDenominator>25000</MaxScaleDenominator>
       <MinScaleDenominator>12500</MinScaleDenominator>
       <Filter><![CDATA[([feature] = 'highway_path') and ([bicycle] != 'designated') and ([horse] != 'designated') and ([access] != 'no') and ([int_surface] = 'paved')]]></Filter>
       <LineSymbolizer stroke="#ffffff" stroke-linecap="round" stroke-linejoin="round" stroke-opacity="0.4" stroke-width="3" />
-      <LineSymbolizer stroke="#b37614" stroke-dasharray="2, 3.5" stroke-linecap="round" stroke-linejoin="round" stroke-width="1" />
+      <LineSymbolizer stroke="#fa8072" stroke-dasharray="2, 3.5" stroke-linecap="round" stroke-linejoin="round" stroke-width="1" />
     </Rule>
     <Rule>
       <MaxScaleDenominator>50000</MaxScaleDenominator>
       <MinScaleDenominator>25000</MinScaleDenominator>
       <Filter><![CDATA[([feature] = 'highway_path') and ([bicycle] != 'designated') and ([horse] != 'designated') and ([access] != 'no') and ([int_surface] = 'paved')]]></Filter>
-      <LineSymbolizer stroke="#b37614" stroke-dasharray="1, 3" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.7" />
+      <LineSymbolizer stroke="#fa8072" stroke-dasharray="1, 3" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.7" />
     </Rule>
     <Rule>
       <MaxScaleDenominator>1500</MaxScaleDenominator>
       <Filter><![CDATA[([feature] = 'highway_path') and ([bicycle] != 'designated') and ([horse] != 'designated') and ([access] != 'no')]]></Filter>
       <LineSymbolizer stroke="#ffffff" stroke-linecap="round" stroke-linejoin="round" stroke-opacity="0.4" stroke-width="3.6" />
-      <LineSymbolizer stroke="#b37614" stroke-dasharray="1, 3" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.7" />
+      <LineSymbolizer stroke="#fa8072" stroke-dasharray="1, 3" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.7" />
     </Rule>
     <Rule>
       <MaxScaleDenominator>2500</MaxScaleDenominator>
       <MinScaleDenominator>1500</MinScaleDenominator>
       <Filter><![CDATA[([feature] = 'highway_path') and ([bicycle] != 'designated') and ([horse] != 'designated') and ([access] != 'no')]]></Filter>
       <LineSymbolizer stroke="#ffffff" stroke-linecap="round" stroke-linejoin="round" stroke-opacity="0.4" stroke-width="3.3" />
-      <LineSymbolizer stroke="#b37614" stroke-dasharray="1, 3" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.7" />
+      <LineSymbolizer stroke="#fa8072" stroke-dasharray="1, 3" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.7" />
     </Rule>
     <Rule>
       <MaxScaleDenominator>12500</MaxScaleDenominator>
       <MinScaleDenominator>2500</MinScaleDenominator>
       <Filter><![CDATA[([feature] = 'highway_path') and ([bicycle] != 'designated') and ([horse] != 'designated') and ([access] != 'no')]]></Filter>
       <LineSymbolizer stroke="#ffffff" stroke-linecap="round" stroke-linejoin="round" stroke-opacity="0.4" stroke-width="3.3" />
-      <LineSymbolizer stroke="#b37614" stroke-dasharray="1, 3" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.7" />
+      <LineSymbolizer stroke="#fa8072" stroke-dasharray="1, 3" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.7" />
     </Rule>
     <Rule>
       <MaxScaleDenominator>25000</MaxScaleDenominator>
       <MinScaleDenominator>12500</MinScaleDenominator>
       <Filter><![CDATA[([feature] = 'highway_path') and ([bicycle] != 'designated') and ([horse] != 'designated') and ([access] != 'no')]]></Filter>
       <LineSymbolizer stroke="#ffffff" stroke-linecap="round" stroke-linejoin="round" stroke-opacity="0.4" stroke-width="3" />
-      <LineSymbolizer stroke="#b37614" stroke-dasharray="1, 3" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.7" />
+      <LineSymbolizer stroke="#fa8072" stroke-dasharray="1, 3" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.7" />
     </Rule>
     <Rule>
       <MaxScaleDenominator>50000</MaxScaleDenominator>
       <MinScaleDenominator>25000</MinScaleDenominator>
       <Filter><![CDATA[([feature] = 'highway_path') and ([bicycle] != 'designated') and ([horse] != 'designated') and ([access] != 'no')]]></Filter>
-      <LineSymbolizer stroke="#b37614" stroke-dasharray="1, 3" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.7" />
+      <LineSymbolizer stroke="#fa8072" stroke-dasharray="1, 3" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.7" />
     </Rule>
     <Rule>
       <MaxScaleDenominator>1500</MaxScaleDenominator>
@@ -19293,28 +19470,28 @@
       <MaxScaleDenominator>1500</MaxScaleDenominator>
       <Filter><![CDATA[([feature] = 'highway_path') and ([bicycle] != 'designated') and ([horse] != 'designated') and ([int_surface] = 'unpaved')]]></Filter>
       <LineSymbolizer stroke="#ffffff" stroke-linecap="round" stroke-linejoin="round" stroke-opacity="0.4" stroke-width="3.6" />
-      <LineSymbolizer stroke="#b37614" stroke-dasharray="1, 4" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.6" />
+      <LineSymbolizer stroke="#fa8072" stroke-dasharray="1, 4" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.6" />
     </Rule>
     <Rule>
       <MaxScaleDenominator>2500</MaxScaleDenominator>
       <MinScaleDenominator>1500</MinScaleDenominator>
       <Filter><![CDATA[([feature] = 'highway_path') and ([bicycle] != 'designated') and ([horse] != 'designated') and ([int_surface] = 'unpaved')]]></Filter>
       <LineSymbolizer stroke="#ffffff" stroke-linecap="round" stroke-linejoin="round" stroke-opacity="0.4" stroke-width="3.3" />
-      <LineSymbolizer stroke="#b37614" stroke-dasharray="1, 4" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.3" />
+      <LineSymbolizer stroke="#fa8072" stroke-dasharray="1, 4" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.3" />
     </Rule>
     <Rule>
       <MaxScaleDenominator>12500</MaxScaleDenominator>
       <MinScaleDenominator>2500</MinScaleDenominator>
       <Filter><![CDATA[([feature] = 'highway_path') and ([bicycle] != 'designated') and ([horse] != 'designated') and ([int_surface] = 'unpaved')]]></Filter>
       <LineSymbolizer stroke="#ffffff" stroke-linecap="round" stroke-linejoin="round" stroke-opacity="0.4" stroke-width="3.3" />
-      <LineSymbolizer stroke="#b37614" stroke-dasharray="1, 4" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.3" />
+      <LineSymbolizer stroke="#fa8072" stroke-dasharray="1, 4" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.3" />
     </Rule>
     <Rule>
       <MaxScaleDenominator>25000</MaxScaleDenominator>
       <MinScaleDenominator>12500</MinScaleDenominator>
       <Filter><![CDATA[([feature] = 'highway_path') and ([bicycle] != 'designated') and ([horse] != 'designated') and ([int_surface] = 'unpaved')]]></Filter>
       <LineSymbolizer stroke="#ffffff" stroke-linecap="round" stroke-linejoin="round" stroke-opacity="0.4" stroke-width="3" />
-      <LineSymbolizer stroke="#b37614" stroke-dasharray="1, 4" stroke-linecap="round" stroke-linejoin="round" stroke-width="1" />
+      <LineSymbolizer stroke="#fa8072" stroke-dasharray="1, 4" stroke-linecap="round" stroke-linejoin="round" stroke-width="1" />
     </Rule>
     <Rule>
       <MaxScaleDenominator>1500</MaxScaleDenominator>
@@ -19347,28 +19524,28 @@
       <MaxScaleDenominator>1500</MaxScaleDenominator>
       <Filter><![CDATA[([feature] = 'highway_path') and ([bicycle] != 'designated') and ([horse] != 'designated') and ([int_surface] = null)]]></Filter>
       <LineSymbolizer stroke="#ffffff" stroke-linecap="round" stroke-linejoin="round" stroke-opacity="0.4" stroke-width="3.6" />
-      <LineSymbolizer stroke="#b37614" stroke-dasharray="1, 4, 2, 3" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.6" />
+      <LineSymbolizer stroke="#fa8072" stroke-dasharray="1, 4, 2, 3" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.6" />
     </Rule>
     <Rule>
       <MaxScaleDenominator>2500</MaxScaleDenominator>
       <MinScaleDenominator>1500</MinScaleDenominator>
       <Filter><![CDATA[([feature] = 'highway_path') and ([bicycle] != 'designated') and ([horse] != 'designated') and ([int_surface] = null)]]></Filter>
       <LineSymbolizer stroke="#ffffff" stroke-linecap="round" stroke-linejoin="round" stroke-opacity="0.4" stroke-width="3.3" />
-      <LineSymbolizer stroke="#b37614" stroke-dasharray="1, 4, 2, 3" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.3" />
+      <LineSymbolizer stroke="#fa8072" stroke-dasharray="1, 4, 2, 3" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.3" />
     </Rule>
     <Rule>
       <MaxScaleDenominator>12500</MaxScaleDenominator>
       <MinScaleDenominator>2500</MinScaleDenominator>
       <Filter><![CDATA[([feature] = 'highway_path') and ([bicycle] != 'designated') and ([horse] != 'designated') and ([int_surface] = null)]]></Filter>
       <LineSymbolizer stroke="#ffffff" stroke-linecap="round" stroke-linejoin="round" stroke-opacity="0.4" stroke-width="3.3" />
-      <LineSymbolizer stroke="#b37614" stroke-dasharray="1, 4, 2, 3" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.3" />
+      <LineSymbolizer stroke="#fa8072" stroke-dasharray="1, 4, 2, 3" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.3" />
     </Rule>
     <Rule>
       <MaxScaleDenominator>25000</MaxScaleDenominator>
       <MinScaleDenominator>12500</MinScaleDenominator>
       <Filter><![CDATA[([feature] = 'highway_path') and ([bicycle] != 'designated') and ([horse] != 'designated') and ([int_surface] = null)]]></Filter>
       <LineSymbolizer stroke="#ffffff" stroke-linecap="round" stroke-linejoin="round" stroke-opacity="0.4" stroke-width="3" />
-      <LineSymbolizer stroke="#b37614" stroke-dasharray="1, 3, 2, 4" stroke-linecap="round" stroke-linejoin="round" stroke-width="1" />
+      <LineSymbolizer stroke="#fa8072" stroke-dasharray="1, 3, 2, 4" stroke-linecap="round" stroke-linejoin="round" stroke-width="1" />
     </Rule>
     <Rule>
       <MaxScaleDenominator>1500</MaxScaleDenominator>
@@ -19408,35 +19585,35 @@
       <MaxScaleDenominator>1500</MaxScaleDenominator>
       <Filter><![CDATA[([feature] = 'highway_path') and ([bicycle] != 'designated') and ([horse] != 'designated') and ([int_surface] = 'paved')]]></Filter>
       <LineSymbolizer stroke="#ffffff" stroke-linecap="round" stroke-linejoin="round" stroke-opacity="0.4" stroke-width="3.6" />
-      <LineSymbolizer stroke="#b37614" stroke-dasharray="3, 3" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.6" />
+      <LineSymbolizer stroke="#fa8072" stroke-dasharray="3, 3" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.6" />
     </Rule>
     <Rule>
       <MaxScaleDenominator>2500</MaxScaleDenominator>
       <MinScaleDenominator>1500</MinScaleDenominator>
       <Filter><![CDATA[([feature] = 'highway_path') and ([bicycle] != 'designated') and ([horse] != 'designated') and ([int_surface] = 'paved')]]></Filter>
       <LineSymbolizer stroke="#ffffff" stroke-linecap="round" stroke-linejoin="round" stroke-opacity="0.4" stroke-width="3.3" />
-      <LineSymbolizer stroke="#b37614" stroke-dasharray="3, 3" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.3" />
+      <LineSymbolizer stroke="#fa8072" stroke-dasharray="3, 3" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.3" />
     </Rule>
     <Rule>
       <MaxScaleDenominator>5000</MaxScaleDenominator>
       <MinScaleDenominator>2500</MinScaleDenominator>
       <Filter><![CDATA[([feature] = 'highway_path') and ([bicycle] != 'designated') and ([horse] != 'designated') and ([int_surface] = 'paved')]]></Filter>
       <LineSymbolizer stroke="#ffffff" stroke-linecap="round" stroke-linejoin="round" stroke-opacity="0.4" stroke-width="3.3" />
-      <LineSymbolizer stroke="#b37614" stroke-dasharray="3, 3" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.3" />
+      <LineSymbolizer stroke="#fa8072" stroke-dasharray="3, 3" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.3" />
     </Rule>
     <Rule>
       <MaxScaleDenominator>12500</MaxScaleDenominator>
       <MinScaleDenominator>5000</MinScaleDenominator>
       <Filter><![CDATA[([feature] = 'highway_path') and ([bicycle] != 'designated') and ([horse] != 'designated') and ([int_surface] = 'paved')]]></Filter>
       <LineSymbolizer stroke="#ffffff" stroke-linecap="round" stroke-linejoin="round" stroke-opacity="0.4" stroke-width="3.3" />
-      <LineSymbolizer stroke="#b37614" stroke-dasharray="3, 3.5" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.3" />
+      <LineSymbolizer stroke="#fa8072" stroke-dasharray="3, 3.5" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.3" />
     </Rule>
     <Rule>
       <MaxScaleDenominator>25000</MaxScaleDenominator>
       <MinScaleDenominator>12500</MinScaleDenominator>
       <Filter><![CDATA[([feature] = 'highway_path') and ([bicycle] != 'designated') and ([horse] != 'designated') and ([int_surface] = 'paved')]]></Filter>
       <LineSymbolizer stroke="#ffffff" stroke-linecap="round" stroke-linejoin="round" stroke-opacity="0.4" stroke-width="3" />
-      <LineSymbolizer stroke="#b37614" stroke-dasharray="2, 3.5" stroke-linecap="round" stroke-linejoin="round" stroke-width="1" />
+      <LineSymbolizer stroke="#fa8072" stroke-dasharray="2, 3.5" stroke-linecap="round" stroke-linejoin="round" stroke-width="1" />
     </Rule>
     <Rule>
       <MaxScaleDenominator>1500</MaxScaleDenominator>
@@ -19469,28 +19646,28 @@
       <MaxScaleDenominator>1500</MaxScaleDenominator>
       <Filter><![CDATA[([feature] = 'highway_path') and ([bicycle] != 'designated') and ([horse] != 'designated')]]></Filter>
       <LineSymbolizer stroke="#ffffff" stroke-linecap="round" stroke-linejoin="round" stroke-opacity="0.4" stroke-width="3.6" />
-      <LineSymbolizer stroke="#b37614" stroke-dasharray="1, 3" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.7" />
+      <LineSymbolizer stroke="#fa8072" stroke-dasharray="1, 3" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.7" />
     </Rule>
     <Rule>
       <MaxScaleDenominator>2500</MaxScaleDenominator>
       <MinScaleDenominator>1500</MinScaleDenominator>
       <Filter><![CDATA[([feature] = 'highway_path') and ([bicycle] != 'designated') and ([horse] != 'designated')]]></Filter>
       <LineSymbolizer stroke="#ffffff" stroke-linecap="round" stroke-linejoin="round" stroke-opacity="0.4" stroke-width="3.3" />
-      <LineSymbolizer stroke="#b37614" stroke-dasharray="1, 3" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.7" />
+      <LineSymbolizer stroke="#fa8072" stroke-dasharray="1, 3" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.7" />
     </Rule>
     <Rule>
       <MaxScaleDenominator>12500</MaxScaleDenominator>
       <MinScaleDenominator>2500</MinScaleDenominator>
       <Filter><![CDATA[([feature] = 'highway_path') and ([bicycle] != 'designated') and ([horse] != 'designated')]]></Filter>
       <LineSymbolizer stroke="#ffffff" stroke-linecap="round" stroke-linejoin="round" stroke-opacity="0.4" stroke-width="3.3" />
-      <LineSymbolizer stroke="#b37614" stroke-dasharray="1, 3" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.7" />
+      <LineSymbolizer stroke="#fa8072" stroke-dasharray="1, 3" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.7" />
     </Rule>
     <Rule>
       <MaxScaleDenominator>25000</MaxScaleDenominator>
       <MinScaleDenominator>12500</MinScaleDenominator>
       <Filter><![CDATA[([feature] = 'highway_path') and ([bicycle] != 'designated') and ([horse] != 'designated')]]></Filter>
       <LineSymbolizer stroke="#ffffff" stroke-linecap="round" stroke-linejoin="round" stroke-opacity="0.4" stroke-width="3" />
-      <LineSymbolizer stroke="#b37614" stroke-dasharray="1, 3" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.7" />
+      <LineSymbolizer stroke="#fa8072" stroke-dasharray="1, 3" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.7" />
     </Rule>
     <Rule>
       <MaxScaleDenominator>2500</MaxScaleDenominator>
@@ -19990,140 +20167,140 @@
       <MaxScaleDenominator>1500</MaxScaleDenominator>
       <Filter><![CDATA[([feature] = 'highway_footway') and ([access] != 'no') and ([int_surface] = 'unpaved')]]></Filter>
       <LineSymbolizer stroke="#ffffff" stroke-linecap="round" stroke-linejoin="round" stroke-opacity="0.4" stroke-width="3.6" />
-      <LineSymbolizer stroke="#b37614" stroke-dasharray="1, 4" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.6" />
+      <LineSymbolizer stroke="#fa8072" stroke-dasharray="1, 4" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.6" />
     </Rule>
     <Rule>
       <MaxScaleDenominator>2500</MaxScaleDenominator>
       <MinScaleDenominator>1500</MinScaleDenominator>
       <Filter><![CDATA[([feature] = 'highway_footway') and ([access] != 'no') and ([int_surface] = 'unpaved')]]></Filter>
       <LineSymbolizer stroke="#ffffff" stroke-linecap="round" stroke-linejoin="round" stroke-opacity="0.4" stroke-width="3.3" />
-      <LineSymbolizer stroke="#b37614" stroke-dasharray="1, 4" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.3" />
+      <LineSymbolizer stroke="#fa8072" stroke-dasharray="1, 4" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.3" />
     </Rule>
     <Rule>
       <MaxScaleDenominator>12500</MaxScaleDenominator>
       <MinScaleDenominator>2500</MinScaleDenominator>
       <Filter><![CDATA[([feature] = 'highway_footway') and ([access] != 'no') and ([int_surface] = 'unpaved')]]></Filter>
       <LineSymbolizer stroke="#ffffff" stroke-linecap="round" stroke-linejoin="round" stroke-opacity="0.4" stroke-width="3.3" />
-      <LineSymbolizer stroke="#b37614" stroke-dasharray="1, 4" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.3" />
+      <LineSymbolizer stroke="#fa8072" stroke-dasharray="1, 4" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.3" />
     </Rule>
     <Rule>
       <MaxScaleDenominator>25000</MaxScaleDenominator>
       <MinScaleDenominator>12500</MinScaleDenominator>
       <Filter><![CDATA[([feature] = 'highway_footway') and ([access] != 'no') and ([int_surface] = 'unpaved')]]></Filter>
       <LineSymbolizer stroke="#ffffff" stroke-linecap="round" stroke-linejoin="round" stroke-opacity="0.4" stroke-width="3" />
-      <LineSymbolizer stroke="#b37614" stroke-dasharray="1, 4" stroke-linecap="round" stroke-linejoin="round" stroke-width="1" />
+      <LineSymbolizer stroke="#fa8072" stroke-dasharray="1, 4" stroke-linecap="round" stroke-linejoin="round" stroke-width="1" />
     </Rule>
     <Rule>
       <MaxScaleDenominator>50000</MaxScaleDenominator>
       <MinScaleDenominator>25000</MinScaleDenominator>
       <Filter><![CDATA[([feature] = 'highway_footway') and ([access] != 'no') and ([int_surface] = 'unpaved')]]></Filter>
-      <LineSymbolizer stroke="#b37614" stroke-dasharray="1, 3" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.7" />
+      <LineSymbolizer stroke="#fa8072" stroke-dasharray="1, 3" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.7" />
     </Rule>
     <Rule>
       <MaxScaleDenominator>1500</MaxScaleDenominator>
       <Filter><![CDATA[([feature] = 'highway_footway') and ([access] != 'no') and ([int_surface] = null)]]></Filter>
       <LineSymbolizer stroke="#ffffff" stroke-linecap="round" stroke-linejoin="round" stroke-opacity="0.4" stroke-width="3.6" />
-      <LineSymbolizer stroke="#b37614" stroke-dasharray="1, 4, 2, 3" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.6" />
+      <LineSymbolizer stroke="#fa8072" stroke-dasharray="1, 4, 2, 3" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.6" />
     </Rule>
     <Rule>
       <MaxScaleDenominator>2500</MaxScaleDenominator>
       <MinScaleDenominator>1500</MinScaleDenominator>
       <Filter><![CDATA[([feature] = 'highway_footway') and ([access] != 'no') and ([int_surface] = null)]]></Filter>
       <LineSymbolizer stroke="#ffffff" stroke-linecap="round" stroke-linejoin="round" stroke-opacity="0.4" stroke-width="3.3" />
-      <LineSymbolizer stroke="#b37614" stroke-dasharray="1, 4, 2, 3" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.3" />
+      <LineSymbolizer stroke="#fa8072" stroke-dasharray="1, 4, 2, 3" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.3" />
     </Rule>
     <Rule>
       <MaxScaleDenominator>12500</MaxScaleDenominator>
       <MinScaleDenominator>2500</MinScaleDenominator>
       <Filter><![CDATA[([feature] = 'highway_footway') and ([access] != 'no') and ([int_surface] = null)]]></Filter>
       <LineSymbolizer stroke="#ffffff" stroke-linecap="round" stroke-linejoin="round" stroke-opacity="0.4" stroke-width="3.3" />
-      <LineSymbolizer stroke="#b37614" stroke-dasharray="1, 4, 2, 3" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.3" />
+      <LineSymbolizer stroke="#fa8072" stroke-dasharray="1, 4, 2, 3" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.3" />
     </Rule>
     <Rule>
       <MaxScaleDenominator>25000</MaxScaleDenominator>
       <MinScaleDenominator>12500</MinScaleDenominator>
       <Filter><![CDATA[([feature] = 'highway_footway') and ([access] != 'no') and ([int_surface] = null)]]></Filter>
       <LineSymbolizer stroke="#ffffff" stroke-linecap="round" stroke-linejoin="round" stroke-opacity="0.4" stroke-width="3" />
-      <LineSymbolizer stroke="#b37614" stroke-dasharray="1, 3, 2, 4" stroke-linecap="round" stroke-linejoin="round" stroke-width="1" />
+      <LineSymbolizer stroke="#fa8072" stroke-dasharray="1, 3, 2, 4" stroke-linecap="round" stroke-linejoin="round" stroke-width="1" />
     </Rule>
     <Rule>
       <MaxScaleDenominator>50000</MaxScaleDenominator>
       <MinScaleDenominator>25000</MinScaleDenominator>
       <Filter><![CDATA[([feature] = 'highway_footway') and ([access] != 'no') and ([int_surface] = null)]]></Filter>
-      <LineSymbolizer stroke="#b37614" stroke-dasharray="1, 3" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.7" />
+      <LineSymbolizer stroke="#fa8072" stroke-dasharray="1, 3" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.7" />
     </Rule>
     <Rule>
       <MaxScaleDenominator>1500</MaxScaleDenominator>
       <Filter><![CDATA[([feature] = 'highway_footway') and ([access] != 'no') and ([int_surface] = 'paved')]]></Filter>
       <LineSymbolizer stroke="#ffffff" stroke-linecap="round" stroke-linejoin="round" stroke-opacity="0.4" stroke-width="3.6" />
-      <LineSymbolizer stroke="#b37614" stroke-dasharray="3, 3" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.6" />
+      <LineSymbolizer stroke="#fa8072" stroke-dasharray="3, 3" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.6" />
     </Rule>
     <Rule>
       <MaxScaleDenominator>2500</MaxScaleDenominator>
       <MinScaleDenominator>1500</MinScaleDenominator>
       <Filter><![CDATA[([feature] = 'highway_footway') and ([access] != 'no') and ([int_surface] = 'paved')]]></Filter>
       <LineSymbolizer stroke="#ffffff" stroke-linecap="round" stroke-linejoin="round" stroke-opacity="0.4" stroke-width="3.3" />
-      <LineSymbolizer stroke="#b37614" stroke-dasharray="3, 3" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.3" />
+      <LineSymbolizer stroke="#fa8072" stroke-dasharray="3, 3" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.3" />
     </Rule>
     <Rule>
       <MaxScaleDenominator>5000</MaxScaleDenominator>
       <MinScaleDenominator>2500</MinScaleDenominator>
       <Filter><![CDATA[([feature] = 'highway_footway') and ([access] != 'no') and ([int_surface] = 'paved')]]></Filter>
       <LineSymbolizer stroke="#ffffff" stroke-linecap="round" stroke-linejoin="round" stroke-opacity="0.4" stroke-width="3.3" />
-      <LineSymbolizer stroke="#b37614" stroke-dasharray="3, 3" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.3" />
+      <LineSymbolizer stroke="#fa8072" stroke-dasharray="3, 3" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.3" />
     </Rule>
     <Rule>
       <MaxScaleDenominator>12500</MaxScaleDenominator>
       <MinScaleDenominator>5000</MinScaleDenominator>
       <Filter><![CDATA[([feature] = 'highway_footway') and ([access] != 'no') and ([int_surface] = 'paved')]]></Filter>
       <LineSymbolizer stroke="#ffffff" stroke-linecap="round" stroke-linejoin="round" stroke-opacity="0.4" stroke-width="3.3" />
-      <LineSymbolizer stroke="#b37614" stroke-dasharray="3, 3.5" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.3" />
+      <LineSymbolizer stroke="#fa8072" stroke-dasharray="3, 3.5" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.3" />
     </Rule>
     <Rule>
       <MaxScaleDenominator>25000</MaxScaleDenominator>
       <MinScaleDenominator>12500</MinScaleDenominator>
       <Filter><![CDATA[([feature] = 'highway_footway') and ([access] != 'no') and ([int_surface] = 'paved')]]></Filter>
       <LineSymbolizer stroke="#ffffff" stroke-linecap="round" stroke-linejoin="round" stroke-opacity="0.4" stroke-width="3" />
-      <LineSymbolizer stroke="#b37614" stroke-dasharray="2, 3.5" stroke-linecap="round" stroke-linejoin="round" stroke-width="1" />
+      <LineSymbolizer stroke="#fa8072" stroke-dasharray="2, 3.5" stroke-linecap="round" stroke-linejoin="round" stroke-width="1" />
     </Rule>
     <Rule>
       <MaxScaleDenominator>50000</MaxScaleDenominator>
       <MinScaleDenominator>25000</MinScaleDenominator>
       <Filter><![CDATA[([feature] = 'highway_footway') and ([access] != 'no') and ([int_surface] = 'paved')]]></Filter>
-      <LineSymbolizer stroke="#b37614" stroke-dasharray="1, 3" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.7" />
+      <LineSymbolizer stroke="#fa8072" stroke-dasharray="1, 3" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.7" />
     </Rule>
     <Rule>
       <MaxScaleDenominator>1500</MaxScaleDenominator>
       <Filter><![CDATA[([feature] = 'highway_footway') and ([access] != 'no')]]></Filter>
       <LineSymbolizer stroke="#ffffff" stroke-linecap="round" stroke-linejoin="round" stroke-opacity="0.4" stroke-width="3.6" />
-      <LineSymbolizer stroke="#b37614" stroke-dasharray="1, 3" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.7" />
+      <LineSymbolizer stroke="#fa8072" stroke-dasharray="1, 3" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.7" />
     </Rule>
     <Rule>
       <MaxScaleDenominator>2500</MaxScaleDenominator>
       <MinScaleDenominator>1500</MinScaleDenominator>
       <Filter><![CDATA[([feature] = 'highway_footway') and ([access] != 'no')]]></Filter>
       <LineSymbolizer stroke="#ffffff" stroke-linecap="round" stroke-linejoin="round" stroke-opacity="0.4" stroke-width="3.3" />
-      <LineSymbolizer stroke="#b37614" stroke-dasharray="1, 3" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.7" />
+      <LineSymbolizer stroke="#fa8072" stroke-dasharray="1, 3" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.7" />
     </Rule>
     <Rule>
       <MaxScaleDenominator>12500</MaxScaleDenominator>
       <MinScaleDenominator>2500</MinScaleDenominator>
       <Filter><![CDATA[([feature] = 'highway_footway') and ([access] != 'no')]]></Filter>
       <LineSymbolizer stroke="#ffffff" stroke-linecap="round" stroke-linejoin="round" stroke-opacity="0.4" stroke-width="3.3" />
-      <LineSymbolizer stroke="#b37614" stroke-dasharray="1, 3" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.7" />
+      <LineSymbolizer stroke="#fa8072" stroke-dasharray="1, 3" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.7" />
     </Rule>
     <Rule>
       <MaxScaleDenominator>25000</MaxScaleDenominator>
       <MinScaleDenominator>12500</MinScaleDenominator>
       <Filter><![CDATA[([feature] = 'highway_footway') and ([access] != 'no')]]></Filter>
       <LineSymbolizer stroke="#ffffff" stroke-linecap="round" stroke-linejoin="round" stroke-opacity="0.4" stroke-width="3" />
-      <LineSymbolizer stroke="#b37614" stroke-dasharray="1, 3" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.7" />
+      <LineSymbolizer stroke="#fa8072" stroke-dasharray="1, 3" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.7" />
     </Rule>
     <Rule>
       <MaxScaleDenominator>50000</MaxScaleDenominator>
       <MinScaleDenominator>25000</MinScaleDenominator>
       <Filter><![CDATA[([feature] = 'highway_footway') and ([access] != 'no')]]></Filter>
-      <LineSymbolizer stroke="#b37614" stroke-dasharray="1, 3" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.7" />
+      <LineSymbolizer stroke="#fa8072" stroke-dasharray="1, 3" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.7" />
     </Rule>
     <Rule>
       <MaxScaleDenominator>25000</MaxScaleDenominator>
@@ -20470,28 +20647,28 @@
       <MaxScaleDenominator>1500</MaxScaleDenominator>
       <Filter><![CDATA[([feature] = 'highway_footway') and ([int_surface] = 'unpaved')]]></Filter>
       <LineSymbolizer stroke="#ffffff" stroke-linecap="round" stroke-linejoin="round" stroke-opacity="0.4" stroke-width="3.6" />
-      <LineSymbolizer stroke="#b37614" stroke-dasharray="1, 4" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.6" />
+      <LineSymbolizer stroke="#fa8072" stroke-dasharray="1, 4" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.6" />
     </Rule>
     <Rule>
       <MaxScaleDenominator>2500</MaxScaleDenominator>
       <MinScaleDenominator>1500</MinScaleDenominator>
       <Filter><![CDATA[([feature] = 'highway_footway') and ([int_surface] = 'unpaved')]]></Filter>
       <LineSymbolizer stroke="#ffffff" stroke-linecap="round" stroke-linejoin="round" stroke-opacity="0.4" stroke-width="3.3" />
-      <LineSymbolizer stroke="#b37614" stroke-dasharray="1, 4" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.3" />
+      <LineSymbolizer stroke="#fa8072" stroke-dasharray="1, 4" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.3" />
     </Rule>
     <Rule>
       <MaxScaleDenominator>12500</MaxScaleDenominator>
       <MinScaleDenominator>2500</MinScaleDenominator>
       <Filter><![CDATA[([feature] = 'highway_footway') and ([int_surface] = 'unpaved')]]></Filter>
       <LineSymbolizer stroke="#ffffff" stroke-linecap="round" stroke-linejoin="round" stroke-opacity="0.4" stroke-width="3.3" />
-      <LineSymbolizer stroke="#b37614" stroke-dasharray="1, 4" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.3" />
+      <LineSymbolizer stroke="#fa8072" stroke-dasharray="1, 4" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.3" />
     </Rule>
     <Rule>
       <MaxScaleDenominator>25000</MaxScaleDenominator>
       <MinScaleDenominator>12500</MinScaleDenominator>
       <Filter><![CDATA[([feature] = 'highway_footway') and ([int_surface] = 'unpaved')]]></Filter>
       <LineSymbolizer stroke="#ffffff" stroke-linecap="round" stroke-linejoin="round" stroke-opacity="0.4" stroke-width="3" />
-      <LineSymbolizer stroke="#b37614" stroke-dasharray="1, 4" stroke-linecap="round" stroke-linejoin="round" stroke-width="1" />
+      <LineSymbolizer stroke="#fa8072" stroke-dasharray="1, 4" stroke-linecap="round" stroke-linejoin="round" stroke-width="1" />
     </Rule>
     <Rule>
       <MaxScaleDenominator>1500</MaxScaleDenominator>
@@ -20524,28 +20701,28 @@
       <MaxScaleDenominator>1500</MaxScaleDenominator>
       <Filter><![CDATA[([feature] = 'highway_footway') and ([int_surface] = null)]]></Filter>
       <LineSymbolizer stroke="#ffffff" stroke-linecap="round" stroke-linejoin="round" stroke-opacity="0.4" stroke-width="3.6" />
-      <LineSymbolizer stroke="#b37614" stroke-dasharray="1, 4, 2, 3" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.6" />
+      <LineSymbolizer stroke="#fa8072" stroke-dasharray="1, 4, 2, 3" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.6" />
     </Rule>
     <Rule>
       <MaxScaleDenominator>2500</MaxScaleDenominator>
       <MinScaleDenominator>1500</MinScaleDenominator>
       <Filter><![CDATA[([feature] = 'highway_footway') and ([int_surface] = null)]]></Filter>
       <LineSymbolizer stroke="#ffffff" stroke-linecap="round" stroke-linejoin="round" stroke-opacity="0.4" stroke-width="3.3" />
-      <LineSymbolizer stroke="#b37614" stroke-dasharray="1, 4, 2, 3" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.3" />
+      <LineSymbolizer stroke="#fa8072" stroke-dasharray="1, 4, 2, 3" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.3" />
     </Rule>
     <Rule>
       <MaxScaleDenominator>12500</MaxScaleDenominator>
       <MinScaleDenominator>2500</MinScaleDenominator>
       <Filter><![CDATA[([feature] = 'highway_footway') and ([int_surface] = null)]]></Filter>
       <LineSymbolizer stroke="#ffffff" stroke-linecap="round" stroke-linejoin="round" stroke-opacity="0.4" stroke-width="3.3" />
-      <LineSymbolizer stroke="#b37614" stroke-dasharray="1, 4, 2, 3" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.3" />
+      <LineSymbolizer stroke="#fa8072" stroke-dasharray="1, 4, 2, 3" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.3" />
     </Rule>
     <Rule>
       <MaxScaleDenominator>25000</MaxScaleDenominator>
       <MinScaleDenominator>12500</MinScaleDenominator>
       <Filter><![CDATA[([feature] = 'highway_footway') and ([int_surface] = null)]]></Filter>
       <LineSymbolizer stroke="#ffffff" stroke-linecap="round" stroke-linejoin="round" stroke-opacity="0.4" stroke-width="3" />
-      <LineSymbolizer stroke="#b37614" stroke-dasharray="1, 3, 2, 4" stroke-linecap="round" stroke-linejoin="round" stroke-width="1" />
+      <LineSymbolizer stroke="#fa8072" stroke-dasharray="1, 3, 2, 4" stroke-linecap="round" stroke-linejoin="round" stroke-width="1" />
     </Rule>
     <Rule>
       <MaxScaleDenominator>1500</MaxScaleDenominator>
@@ -20585,35 +20762,35 @@
       <MaxScaleDenominator>1500</MaxScaleDenominator>
       <Filter><![CDATA[([feature] = 'highway_footway') and ([int_surface] = 'paved')]]></Filter>
       <LineSymbolizer stroke="#ffffff" stroke-linecap="round" stroke-linejoin="round" stroke-opacity="0.4" stroke-width="3.6" />
-      <LineSymbolizer stroke="#b37614" stroke-dasharray="3, 3" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.6" />
+      <LineSymbolizer stroke="#fa8072" stroke-dasharray="3, 3" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.6" />
     </Rule>
     <Rule>
       <MaxScaleDenominator>2500</MaxScaleDenominator>
       <MinScaleDenominator>1500</MinScaleDenominator>
       <Filter><![CDATA[([feature] = 'highway_footway') and ([int_surface] = 'paved')]]></Filter>
       <LineSymbolizer stroke="#ffffff" stroke-linecap="round" stroke-linejoin="round" stroke-opacity="0.4" stroke-width="3.3" />
-      <LineSymbolizer stroke="#b37614" stroke-dasharray="3, 3" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.3" />
+      <LineSymbolizer stroke="#fa8072" stroke-dasharray="3, 3" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.3" />
     </Rule>
     <Rule>
       <MaxScaleDenominator>5000</MaxScaleDenominator>
       <MinScaleDenominator>2500</MinScaleDenominator>
       <Filter><![CDATA[([feature] = 'highway_footway') and ([int_surface] = 'paved')]]></Filter>
       <LineSymbolizer stroke="#ffffff" stroke-linecap="round" stroke-linejoin="round" stroke-opacity="0.4" stroke-width="3.3" />
-      <LineSymbolizer stroke="#b37614" stroke-dasharray="3, 3" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.3" />
+      <LineSymbolizer stroke="#fa8072" stroke-dasharray="3, 3" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.3" />
     </Rule>
     <Rule>
       <MaxScaleDenominator>12500</MaxScaleDenominator>
       <MinScaleDenominator>5000</MinScaleDenominator>
       <Filter><![CDATA[([feature] = 'highway_footway') and ([int_surface] = 'paved')]]></Filter>
       <LineSymbolizer stroke="#ffffff" stroke-linecap="round" stroke-linejoin="round" stroke-opacity="0.4" stroke-width="3.3" />
-      <LineSymbolizer stroke="#b37614" stroke-dasharray="3, 3.5" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.3" />
+      <LineSymbolizer stroke="#fa8072" stroke-dasharray="3, 3.5" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.3" />
     </Rule>
     <Rule>
       <MaxScaleDenominator>25000</MaxScaleDenominator>
       <MinScaleDenominator>12500</MinScaleDenominator>
       <Filter><![CDATA[([feature] = 'highway_footway') and ([int_surface] = 'paved')]]></Filter>
       <LineSymbolizer stroke="#ffffff" stroke-linecap="round" stroke-linejoin="round" stroke-opacity="0.4" stroke-width="3" />
-      <LineSymbolizer stroke="#b37614" stroke-dasharray="2, 3.5" stroke-linecap="round" stroke-linejoin="round" stroke-width="1" />
+      <LineSymbolizer stroke="#fa8072" stroke-dasharray="2, 3.5" stroke-linecap="round" stroke-linejoin="round" stroke-width="1" />
     </Rule>
     <Rule>
       <MaxScaleDenominator>1500</MaxScaleDenominator>
@@ -20646,28 +20823,28 @@
       <MaxScaleDenominator>1500</MaxScaleDenominator>
       <Filter><![CDATA[([feature] = 'highway_footway')]]></Filter>
       <LineSymbolizer stroke="#ffffff" stroke-linecap="round" stroke-linejoin="round" stroke-opacity="0.4" stroke-width="3.6" />
-      <LineSymbolizer stroke="#b37614" stroke-dasharray="1, 3" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.7" />
+      <LineSymbolizer stroke="#fa8072" stroke-dasharray="1, 3" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.7" />
     </Rule>
     <Rule>
       <MaxScaleDenominator>2500</MaxScaleDenominator>
       <MinScaleDenominator>1500</MinScaleDenominator>
       <Filter><![CDATA[([feature] = 'highway_footway')]]></Filter>
       <LineSymbolizer stroke="#ffffff" stroke-linecap="round" stroke-linejoin="round" stroke-opacity="0.4" stroke-width="3.3" />
-      <LineSymbolizer stroke="#b37614" stroke-dasharray="1, 3" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.7" />
+      <LineSymbolizer stroke="#fa8072" stroke-dasharray="1, 3" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.7" />
     </Rule>
     <Rule>
       <MaxScaleDenominator>12500</MaxScaleDenominator>
       <MinScaleDenominator>2500</MinScaleDenominator>
       <Filter><![CDATA[([feature] = 'highway_footway')]]></Filter>
       <LineSymbolizer stroke="#ffffff" stroke-linecap="round" stroke-linejoin="round" stroke-opacity="0.4" stroke-width="3.3" />
-      <LineSymbolizer stroke="#b37614" stroke-dasharray="1, 3" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.7" />
+      <LineSymbolizer stroke="#fa8072" stroke-dasharray="1, 3" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.7" />
     </Rule>
     <Rule>
       <MaxScaleDenominator>25000</MaxScaleDenominator>
       <MinScaleDenominator>12500</MinScaleDenominator>
       <Filter><![CDATA[([feature] = 'highway_footway')]]></Filter>
       <LineSymbolizer stroke="#ffffff" stroke-linecap="round" stroke-linejoin="round" stroke-opacity="0.4" stroke-width="3" />
-      <LineSymbolizer stroke="#b37614" stroke-dasharray="1, 3" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.7" />
+      <LineSymbolizer stroke="#fa8072" stroke-dasharray="1, 3" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.7" />
     </Rule>
     <Rule>
       <MaxScaleDenominator>25000</MaxScaleDenominator>
@@ -20696,14 +20873,14 @@
     <Rule>
       <MaxScaleDenominator>25000</MaxScaleDenominator>
       <Filter><![CDATA[([feature] = 'highway_steps') and ([access] != 'no')]]></Filter>
-      <LineSymbolizer stroke="#ffffff" stroke-linecap="round" stroke-linejoin="round" stroke-opacity="0.4" stroke-width="11" />
-      <LineSymbolizer stroke="#b37614" stroke-dasharray="2, 1" stroke-width="9" />
+      <LineSymbolizer stroke="#ffffff" stroke-linecap="round" stroke-linejoin="round" stroke-opacity="0.4" stroke-width="5" />
+      <LineSymbolizer stroke="#b5903a" stroke-dasharray="2, 1" stroke-width="3" />
     </Rule>
     <Rule>
       <MaxScaleDenominator>50000</MaxScaleDenominator>
       <MinScaleDenominator>25000</MinScaleDenominator>
       <Filter><![CDATA[([feature] = 'highway_steps') and ([access] != 'no')]]></Filter>
-      <LineSymbolizer stroke="#b37614" stroke-dasharray="2, 1" stroke-width="2.7" />
+      <LineSymbolizer stroke="#b5903a" stroke-dasharray="2, 1" stroke-width="0.7" />
     </Rule>
     <Rule>
       <MaxScaleDenominator>25000</MaxScaleDenominator>
@@ -20768,14 +20945,14 @@
     <Rule>
       <MaxScaleDenominator>25000</MaxScaleDenominator>
       <Filter><![CDATA[([feature] = 'highway_steps') and ([access] = 'no')]]></Filter>
-      <LineSymbolizer stroke="#ffffff" stroke-linecap="round" stroke-linejoin="round" stroke-opacity="0.4" stroke-width="11" />
-      <LineSymbolizer stroke="#bbbbbb" stroke-dasharray="2, 1" stroke-width="9" />
+      <LineSymbolizer stroke="#ffffff" stroke-linecap="round" stroke-linejoin="round" stroke-opacity="0.4" stroke-width="5" />
+      <LineSymbolizer stroke="#bbbbbb" stroke-dasharray="2, 1" stroke-width="3" />
     </Rule>
     <Rule>
       <MaxScaleDenominator>25000</MaxScaleDenominator>
       <Filter><![CDATA[([feature] = 'highway_steps')]]></Filter>
-      <LineSymbolizer stroke="#ffffff" stroke-linecap="round" stroke-linejoin="round" stroke-opacity="0.4" stroke-width="11" />
-      <LineSymbolizer stroke="#b37614" stroke-dasharray="2, 1" stroke-width="9" />
+      <LineSymbolizer stroke="#ffffff" stroke-linecap="round" stroke-linejoin="round" stroke-opacity="0.4" stroke-width="5" />
+      <LineSymbolizer stroke="#b5903a" stroke-dasharray="2, 1" stroke-width="3" />
     </Rule>
     <Rule>
       <MaxScaleDenominator>1500</MaxScaleDenominator>
@@ -28639,95 +28816,95 @@
     <Rule>
       <MaxScaleDenominator>1500</MaxScaleDenominator>
       <Filter><![CDATA[([feature] = 'highway_path') and ([bicycle] != 'designated') and ([horse] != 'designated') and ([access] != 'no') and ([int_surface] = 'unpaved')]]></Filter>
-      <LineSymbolizer stroke="#b37614" stroke-dasharray="1, 4" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.6" />
+      <LineSymbolizer stroke="#fa8072" stroke-dasharray="1, 4" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.6" />
     </Rule>
     <Rule>
       <MaxScaleDenominator>2500</MaxScaleDenominator>
       <MinScaleDenominator>1500</MinScaleDenominator>
       <Filter><![CDATA[([feature] = 'highway_path') and ([bicycle] != 'designated') and ([horse] != 'designated') and ([access] != 'no') and ([int_surface] = 'unpaved')]]></Filter>
-      <LineSymbolizer stroke="#b37614" stroke-dasharray="1, 4" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.3" />
+      <LineSymbolizer stroke="#fa8072" stroke-dasharray="1, 4" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.3" />
     </Rule>
     <Rule>
       <MaxScaleDenominator>12500</MaxScaleDenominator>
       <MinScaleDenominator>2500</MinScaleDenominator>
       <Filter><![CDATA[([feature] = 'highway_path') and ([bicycle] != 'designated') and ([horse] != 'designated') and ([access] != 'no') and ([int_surface] = 'unpaved')]]></Filter>
-      <LineSymbolizer stroke="#b37614" stroke-dasharray="1, 4" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.3" />
+      <LineSymbolizer stroke="#fa8072" stroke-dasharray="1, 4" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.3" />
     </Rule>
     <Rule>
       <MaxScaleDenominator>25000</MaxScaleDenominator>
       <MinScaleDenominator>12500</MinScaleDenominator>
       <Filter><![CDATA[([feature] = 'highway_path') and ([bicycle] != 'designated') and ([horse] != 'designated') and ([access] != 'no') and ([int_surface] = 'unpaved')]]></Filter>
-      <LineSymbolizer stroke="#b37614" stroke-dasharray="1, 4" stroke-linecap="round" stroke-linejoin="round" stroke-width="1" />
+      <LineSymbolizer stroke="#fa8072" stroke-dasharray="1, 4" stroke-linecap="round" stroke-linejoin="round" stroke-width="1" />
     </Rule>
     <Rule>
       <MaxScaleDenominator>50000</MaxScaleDenominator>
       <MinScaleDenominator>25000</MinScaleDenominator>
       <Filter><![CDATA[([feature] = 'highway_path') and ([bicycle] != 'designated') and ([horse] != 'designated') and ([access] != 'no') and ([int_surface] = 'unpaved')]]></Filter>
-      <LineSymbolizer stroke="#b37614" stroke-dasharray="1, 3" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.7" />
+      <LineSymbolizer stroke="#fa8072" stroke-dasharray="1, 3" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.7" />
     </Rule>
     <Rule>
       <MaxScaleDenominator>1500</MaxScaleDenominator>
       <Filter><![CDATA[([feature] = 'highway_path') and ([bicycle] != 'designated') and ([horse] != 'designated') and ([access] != 'no') and ([int_surface] = null)]]></Filter>
-      <LineSymbolizer stroke="#b37614" stroke-dasharray="1, 4, 2, 3" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.6" />
+      <LineSymbolizer stroke="#fa8072" stroke-dasharray="1, 4, 2, 3" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.6" />
     </Rule>
     <Rule>
       <MaxScaleDenominator>2500</MaxScaleDenominator>
       <MinScaleDenominator>1500</MinScaleDenominator>
       <Filter><![CDATA[([feature] = 'highway_path') and ([bicycle] != 'designated') and ([horse] != 'designated') and ([access] != 'no') and ([int_surface] = null)]]></Filter>
-      <LineSymbolizer stroke="#b37614" stroke-dasharray="1, 4, 2, 3" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.3" />
+      <LineSymbolizer stroke="#fa8072" stroke-dasharray="1, 4, 2, 3" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.3" />
     </Rule>
     <Rule>
       <MaxScaleDenominator>12500</MaxScaleDenominator>
       <MinScaleDenominator>2500</MinScaleDenominator>
       <Filter><![CDATA[([feature] = 'highway_path') and ([bicycle] != 'designated') and ([horse] != 'designated') and ([access] != 'no') and ([int_surface] = null)]]></Filter>
-      <LineSymbolizer stroke="#b37614" stroke-dasharray="1, 4, 2, 3" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.3" />
+      <LineSymbolizer stroke="#fa8072" stroke-dasharray="1, 4, 2, 3" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.3" />
     </Rule>
     <Rule>
       <MaxScaleDenominator>25000</MaxScaleDenominator>
       <MinScaleDenominator>12500</MinScaleDenominator>
       <Filter><![CDATA[([feature] = 'highway_path') and ([bicycle] != 'designated') and ([horse] != 'designated') and ([access] != 'no') and ([int_surface] = null)]]></Filter>
-      <LineSymbolizer stroke="#b37614" stroke-dasharray="1, 3, 2, 4" stroke-linecap="round" stroke-linejoin="round" stroke-width="1" />
+      <LineSymbolizer stroke="#fa8072" stroke-dasharray="1, 3, 2, 4" stroke-linecap="round" stroke-linejoin="round" stroke-width="1" />
     </Rule>
     <Rule>
       <MaxScaleDenominator>50000</MaxScaleDenominator>
       <MinScaleDenominator>25000</MinScaleDenominator>
       <Filter><![CDATA[([feature] = 'highway_path') and ([bicycle] != 'designated') and ([horse] != 'designated') and ([access] != 'no') and ([int_surface] = null)]]></Filter>
-      <LineSymbolizer stroke="#b37614" stroke-dasharray="1, 3" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.7" />
+      <LineSymbolizer stroke="#fa8072" stroke-dasharray="1, 3" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.7" />
     </Rule>
     <Rule>
       <MaxScaleDenominator>1500</MaxScaleDenominator>
       <Filter><![CDATA[([feature] = 'highway_path') and ([bicycle] != 'designated') and ([horse] != 'designated') and ([access] != 'no') and ([int_surface] = 'paved')]]></Filter>
-      <LineSymbolizer stroke="#b37614" stroke-dasharray="3, 3" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.6" />
+      <LineSymbolizer stroke="#fa8072" stroke-dasharray="3, 3" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.6" />
     </Rule>
     <Rule>
       <MaxScaleDenominator>2500</MaxScaleDenominator>
       <MinScaleDenominator>1500</MinScaleDenominator>
       <Filter><![CDATA[([feature] = 'highway_path') and ([bicycle] != 'designated') and ([horse] != 'designated') and ([access] != 'no') and ([int_surface] = 'paved')]]></Filter>
-      <LineSymbolizer stroke="#b37614" stroke-dasharray="3, 3" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.3" />
+      <LineSymbolizer stroke="#fa8072" stroke-dasharray="3, 3" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.3" />
     </Rule>
     <Rule>
       <MaxScaleDenominator>5000</MaxScaleDenominator>
       <MinScaleDenominator>2500</MinScaleDenominator>
       <Filter><![CDATA[([feature] = 'highway_path') and ([bicycle] != 'designated') and ([horse] != 'designated') and ([access] != 'no') and ([int_surface] = 'paved')]]></Filter>
-      <LineSymbolizer stroke="#b37614" stroke-dasharray="3, 3" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.3" />
+      <LineSymbolizer stroke="#fa8072" stroke-dasharray="3, 3" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.3" />
     </Rule>
     <Rule>
       <MaxScaleDenominator>12500</MaxScaleDenominator>
       <MinScaleDenominator>5000</MinScaleDenominator>
       <Filter><![CDATA[([feature] = 'highway_path') and ([bicycle] != 'designated') and ([horse] != 'designated') and ([access] != 'no') and ([int_surface] = 'paved')]]></Filter>
-      <LineSymbolizer stroke="#b37614" stroke-dasharray="3, 3.5" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.3" />
+      <LineSymbolizer stroke="#fa8072" stroke-dasharray="3, 3.5" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.3" />
     </Rule>
     <Rule>
       <MaxScaleDenominator>25000</MaxScaleDenominator>
       <MinScaleDenominator>12500</MinScaleDenominator>
       <Filter><![CDATA[([feature] = 'highway_path') and ([bicycle] != 'designated') and ([horse] != 'designated') and ([access] != 'no') and ([int_surface] = 'paved')]]></Filter>
-      <LineSymbolizer stroke="#b37614" stroke-dasharray="2, 3.5" stroke-linecap="round" stroke-linejoin="round" stroke-width="1" />
+      <LineSymbolizer stroke="#fa8072" stroke-dasharray="2, 3.5" stroke-linecap="round" stroke-linejoin="round" stroke-width="1" />
     </Rule>
     <Rule>
       <MaxScaleDenominator>50000</MaxScaleDenominator>
       <MinScaleDenominator>25000</MinScaleDenominator>
       <Filter><![CDATA[([feature] = 'highway_path') and ([bicycle] != 'designated') and ([horse] != 'designated') and ([access] != 'no') and ([int_surface] = 'paved')]]></Filter>
-      <LineSymbolizer stroke="#b37614" stroke-dasharray="1, 3" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.7" />
+      <LineSymbolizer stroke="#fa8072" stroke-dasharray="1, 3" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.7" />
     </Rule>
     <Rule>
       <MaxScaleDenominator>1500</MaxScaleDenominator>
@@ -28848,25 +29025,25 @@
     <Rule>
       <MaxScaleDenominator>1500</MaxScaleDenominator>
       <Filter><![CDATA[([feature] = 'highway_path') and ([bicycle] != 'designated') and ([horse] != 'designated') and ([int_surface] = 'unpaved')]]></Filter>
-      <LineSymbolizer stroke="#b37614" stroke-dasharray="1, 4" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.6" />
+      <LineSymbolizer stroke="#fa8072" stroke-dasharray="1, 4" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.6" />
     </Rule>
     <Rule>
       <MaxScaleDenominator>2500</MaxScaleDenominator>
       <MinScaleDenominator>1500</MinScaleDenominator>
       <Filter><![CDATA[([feature] = 'highway_path') and ([bicycle] != 'designated') and ([horse] != 'designated') and ([int_surface] = 'unpaved')]]></Filter>
-      <LineSymbolizer stroke="#b37614" stroke-dasharray="1, 4" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.3" />
+      <LineSymbolizer stroke="#fa8072" stroke-dasharray="1, 4" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.3" />
     </Rule>
     <Rule>
       <MaxScaleDenominator>12500</MaxScaleDenominator>
       <MinScaleDenominator>2500</MinScaleDenominator>
       <Filter><![CDATA[([feature] = 'highway_path') and ([bicycle] != 'designated') and ([horse] != 'designated') and ([int_surface] = 'unpaved')]]></Filter>
-      <LineSymbolizer stroke="#b37614" stroke-dasharray="1, 4" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.3" />
+      <LineSymbolizer stroke="#fa8072" stroke-dasharray="1, 4" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.3" />
     </Rule>
     <Rule>
       <MaxScaleDenominator>25000</MaxScaleDenominator>
       <MinScaleDenominator>12500</MinScaleDenominator>
       <Filter><![CDATA[([feature] = 'highway_path') and ([bicycle] != 'designated') and ([horse] != 'designated') and ([int_surface] = 'unpaved')]]></Filter>
-      <LineSymbolizer stroke="#b37614" stroke-dasharray="1, 4" stroke-linecap="round" stroke-linejoin="round" stroke-width="1" />
+      <LineSymbolizer stroke="#fa8072" stroke-dasharray="1, 4" stroke-linecap="round" stroke-linejoin="round" stroke-width="1" />
     </Rule>
     <Rule>
       <MaxScaleDenominator>1500</MaxScaleDenominator>
@@ -28894,25 +29071,25 @@
     <Rule>
       <MaxScaleDenominator>1500</MaxScaleDenominator>
       <Filter><![CDATA[([feature] = 'highway_path') and ([bicycle] != 'designated') and ([horse] != 'designated') and ([int_surface] = null)]]></Filter>
-      <LineSymbolizer stroke="#b37614" stroke-dasharray="1, 4, 2, 3" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.6" />
+      <LineSymbolizer stroke="#fa8072" stroke-dasharray="1, 4, 2, 3" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.6" />
     </Rule>
     <Rule>
       <MaxScaleDenominator>2500</MaxScaleDenominator>
       <MinScaleDenominator>1500</MinScaleDenominator>
       <Filter><![CDATA[([feature] = 'highway_path') and ([bicycle] != 'designated') and ([horse] != 'designated') and ([int_surface] = null)]]></Filter>
-      <LineSymbolizer stroke="#b37614" stroke-dasharray="1, 4, 2, 3" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.3" />
+      <LineSymbolizer stroke="#fa8072" stroke-dasharray="1, 4, 2, 3" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.3" />
     </Rule>
     <Rule>
       <MaxScaleDenominator>12500</MaxScaleDenominator>
       <MinScaleDenominator>2500</MinScaleDenominator>
       <Filter><![CDATA[([feature] = 'highway_path') and ([bicycle] != 'designated') and ([horse] != 'designated') and ([int_surface] = null)]]></Filter>
-      <LineSymbolizer stroke="#b37614" stroke-dasharray="1, 4, 2, 3" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.3" />
+      <LineSymbolizer stroke="#fa8072" stroke-dasharray="1, 4, 2, 3" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.3" />
     </Rule>
     <Rule>
       <MaxScaleDenominator>25000</MaxScaleDenominator>
       <MinScaleDenominator>12500</MinScaleDenominator>
       <Filter><![CDATA[([feature] = 'highway_path') and ([bicycle] != 'designated') and ([horse] != 'designated') and ([int_surface] = null)]]></Filter>
-      <LineSymbolizer stroke="#b37614" stroke-dasharray="1, 3, 2, 4" stroke-linecap="round" stroke-linejoin="round" stroke-width="1" />
+      <LineSymbolizer stroke="#fa8072" stroke-dasharray="1, 3, 2, 4" stroke-linecap="round" stroke-linejoin="round" stroke-width="1" />
     </Rule>
     <Rule>
       <MaxScaleDenominator>1500</MaxScaleDenominator>
@@ -28946,31 +29123,31 @@
     <Rule>
       <MaxScaleDenominator>1500</MaxScaleDenominator>
       <Filter><![CDATA[([feature] = 'highway_path') and ([bicycle] != 'designated') and ([horse] != 'designated') and ([int_surface] = 'paved')]]></Filter>
-      <LineSymbolizer stroke="#b37614" stroke-dasharray="3, 3" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.6" />
+      <LineSymbolizer stroke="#fa8072" stroke-dasharray="3, 3" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.6" />
     </Rule>
     <Rule>
       <MaxScaleDenominator>2500</MaxScaleDenominator>
       <MinScaleDenominator>1500</MinScaleDenominator>
       <Filter><![CDATA[([feature] = 'highway_path') and ([bicycle] != 'designated') and ([horse] != 'designated') and ([int_surface] = 'paved')]]></Filter>
-      <LineSymbolizer stroke="#b37614" stroke-dasharray="3, 3" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.3" />
+      <LineSymbolizer stroke="#fa8072" stroke-dasharray="3, 3" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.3" />
     </Rule>
     <Rule>
       <MaxScaleDenominator>5000</MaxScaleDenominator>
       <MinScaleDenominator>2500</MinScaleDenominator>
       <Filter><![CDATA[([feature] = 'highway_path') and ([bicycle] != 'designated') and ([horse] != 'designated') and ([int_surface] = 'paved')]]></Filter>
-      <LineSymbolizer stroke="#b37614" stroke-dasharray="3, 3" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.3" />
+      <LineSymbolizer stroke="#fa8072" stroke-dasharray="3, 3" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.3" />
     </Rule>
     <Rule>
       <MaxScaleDenominator>12500</MaxScaleDenominator>
       <MinScaleDenominator>5000</MinScaleDenominator>
       <Filter><![CDATA[([feature] = 'highway_path') and ([bicycle] != 'designated') and ([horse] != 'designated') and ([int_surface] = 'paved')]]></Filter>
-      <LineSymbolizer stroke="#b37614" stroke-dasharray="3, 3.5" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.3" />
+      <LineSymbolizer stroke="#fa8072" stroke-dasharray="3, 3.5" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.3" />
     </Rule>
     <Rule>
       <MaxScaleDenominator>25000</MaxScaleDenominator>
       <MinScaleDenominator>12500</MinScaleDenominator>
       <Filter><![CDATA[([feature] = 'highway_path') and ([bicycle] != 'designated') and ([horse] != 'designated') and ([int_surface] = 'paved')]]></Filter>
-      <LineSymbolizer stroke="#b37614" stroke-dasharray="2, 3.5" stroke-linecap="round" stroke-linejoin="round" stroke-width="1" />
+      <LineSymbolizer stroke="#fa8072" stroke-dasharray="2, 3.5" stroke-linecap="round" stroke-linejoin="round" stroke-width="1" />
     </Rule>
     <Rule>
       <MaxScaleDenominator>1500</MaxScaleDenominator>
@@ -29265,95 +29442,95 @@
     <Rule>
       <MaxScaleDenominator>1500</MaxScaleDenominator>
       <Filter><![CDATA[([feature] = 'highway_footway') and ([access] != 'no') and ([int_surface] = 'unpaved')]]></Filter>
-      <LineSymbolizer stroke="#b37614" stroke-dasharray="1, 4" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.6" />
+      <LineSymbolizer stroke="#fa8072" stroke-dasharray="1, 4" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.6" />
     </Rule>
     <Rule>
       <MaxScaleDenominator>2500</MaxScaleDenominator>
       <MinScaleDenominator>1500</MinScaleDenominator>
       <Filter><![CDATA[([feature] = 'highway_footway') and ([access] != 'no') and ([int_surface] = 'unpaved')]]></Filter>
-      <LineSymbolizer stroke="#b37614" stroke-dasharray="1, 4" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.3" />
+      <LineSymbolizer stroke="#fa8072" stroke-dasharray="1, 4" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.3" />
     </Rule>
     <Rule>
       <MaxScaleDenominator>12500</MaxScaleDenominator>
       <MinScaleDenominator>2500</MinScaleDenominator>
       <Filter><![CDATA[([feature] = 'highway_footway') and ([access] != 'no') and ([int_surface] = 'unpaved')]]></Filter>
-      <LineSymbolizer stroke="#b37614" stroke-dasharray="1, 4" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.3" />
+      <LineSymbolizer stroke="#fa8072" stroke-dasharray="1, 4" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.3" />
     </Rule>
     <Rule>
       <MaxScaleDenominator>25000</MaxScaleDenominator>
       <MinScaleDenominator>12500</MinScaleDenominator>
       <Filter><![CDATA[([feature] = 'highway_footway') and ([access] != 'no') and ([int_surface] = 'unpaved')]]></Filter>
-      <LineSymbolizer stroke="#b37614" stroke-dasharray="1, 4" stroke-linecap="round" stroke-linejoin="round" stroke-width="1" />
+      <LineSymbolizer stroke="#fa8072" stroke-dasharray="1, 4" stroke-linecap="round" stroke-linejoin="round" stroke-width="1" />
     </Rule>
     <Rule>
       <MaxScaleDenominator>50000</MaxScaleDenominator>
       <MinScaleDenominator>25000</MinScaleDenominator>
       <Filter><![CDATA[([feature] = 'highway_footway') and ([access] != 'no') and ([int_surface] = 'unpaved')]]></Filter>
-      <LineSymbolizer stroke="#b37614" stroke-dasharray="1, 3" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.7" />
+      <LineSymbolizer stroke="#fa8072" stroke-dasharray="1, 3" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.7" />
     </Rule>
     <Rule>
       <MaxScaleDenominator>1500</MaxScaleDenominator>
       <Filter><![CDATA[([feature] = 'highway_footway') and ([access] != 'no') and ([int_surface] = null)]]></Filter>
-      <LineSymbolizer stroke="#b37614" stroke-dasharray="1, 4, 2, 3" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.6" />
+      <LineSymbolizer stroke="#fa8072" stroke-dasharray="1, 4, 2, 3" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.6" />
     </Rule>
     <Rule>
       <MaxScaleDenominator>2500</MaxScaleDenominator>
       <MinScaleDenominator>1500</MinScaleDenominator>
       <Filter><![CDATA[([feature] = 'highway_footway') and ([access] != 'no') and ([int_surface] = null)]]></Filter>
-      <LineSymbolizer stroke="#b37614" stroke-dasharray="1, 4, 2, 3" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.3" />
+      <LineSymbolizer stroke="#fa8072" stroke-dasharray="1, 4, 2, 3" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.3" />
     </Rule>
     <Rule>
       <MaxScaleDenominator>12500</MaxScaleDenominator>
       <MinScaleDenominator>2500</MinScaleDenominator>
       <Filter><![CDATA[([feature] = 'highway_footway') and ([access] != 'no') and ([int_surface] = null)]]></Filter>
-      <LineSymbolizer stroke="#b37614" stroke-dasharray="1, 4, 2, 3" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.3" />
+      <LineSymbolizer stroke="#fa8072" stroke-dasharray="1, 4, 2, 3" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.3" />
     </Rule>
     <Rule>
       <MaxScaleDenominator>25000</MaxScaleDenominator>
       <MinScaleDenominator>12500</MinScaleDenominator>
       <Filter><![CDATA[([feature] = 'highway_footway') and ([access] != 'no') and ([int_surface] = null)]]></Filter>
-      <LineSymbolizer stroke="#b37614" stroke-dasharray="1, 3, 2, 4" stroke-linecap="round" stroke-linejoin="round" stroke-width="1" />
+      <LineSymbolizer stroke="#fa8072" stroke-dasharray="1, 3, 2, 4" stroke-linecap="round" stroke-linejoin="round" stroke-width="1" />
     </Rule>
     <Rule>
       <MaxScaleDenominator>50000</MaxScaleDenominator>
       <MinScaleDenominator>25000</MinScaleDenominator>
       <Filter><![CDATA[([feature] = 'highway_footway') and ([access] != 'no') and ([int_surface] = null)]]></Filter>
-      <LineSymbolizer stroke="#b37614" stroke-dasharray="1, 3" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.7" />
+      <LineSymbolizer stroke="#fa8072" stroke-dasharray="1, 3" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.7" />
     </Rule>
     <Rule>
       <MaxScaleDenominator>1500</MaxScaleDenominator>
       <Filter><![CDATA[([feature] = 'highway_footway') and ([access] != 'no') and ([int_surface] = 'paved')]]></Filter>
-      <LineSymbolizer stroke="#b37614" stroke-dasharray="3, 3" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.6" />
+      <LineSymbolizer stroke="#fa8072" stroke-dasharray="3, 3" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.6" />
     </Rule>
     <Rule>
       <MaxScaleDenominator>2500</MaxScaleDenominator>
       <MinScaleDenominator>1500</MinScaleDenominator>
       <Filter><![CDATA[([feature] = 'highway_footway') and ([access] != 'no') and ([int_surface] = 'paved')]]></Filter>
-      <LineSymbolizer stroke="#b37614" stroke-dasharray="3, 3" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.3" />
+      <LineSymbolizer stroke="#fa8072" stroke-dasharray="3, 3" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.3" />
     </Rule>
     <Rule>
       <MaxScaleDenominator>5000</MaxScaleDenominator>
       <MinScaleDenominator>2500</MinScaleDenominator>
       <Filter><![CDATA[([feature] = 'highway_footway') and ([access] != 'no') and ([int_surface] = 'paved')]]></Filter>
-      <LineSymbolizer stroke="#b37614" stroke-dasharray="3, 3" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.3" />
+      <LineSymbolizer stroke="#fa8072" stroke-dasharray="3, 3" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.3" />
     </Rule>
     <Rule>
       <MaxScaleDenominator>12500</MaxScaleDenominator>
       <MinScaleDenominator>5000</MinScaleDenominator>
       <Filter><![CDATA[([feature] = 'highway_footway') and ([access] != 'no') and ([int_surface] = 'paved')]]></Filter>
-      <LineSymbolizer stroke="#b37614" stroke-dasharray="3, 3.5" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.3" />
+      <LineSymbolizer stroke="#fa8072" stroke-dasharray="3, 3.5" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.3" />
     </Rule>
     <Rule>
       <MaxScaleDenominator>25000</MaxScaleDenominator>
       <MinScaleDenominator>12500</MinScaleDenominator>
       <Filter><![CDATA[([feature] = 'highway_footway') and ([access] != 'no') and ([int_surface] = 'paved')]]></Filter>
-      <LineSymbolizer stroke="#b37614" stroke-dasharray="2, 3.5" stroke-linecap="round" stroke-linejoin="round" stroke-width="1" />
+      <LineSymbolizer stroke="#fa8072" stroke-dasharray="2, 3.5" stroke-linecap="round" stroke-linejoin="round" stroke-width="1" />
     </Rule>
     <Rule>
       <MaxScaleDenominator>50000</MaxScaleDenominator>
       <MinScaleDenominator>25000</MinScaleDenominator>
       <Filter><![CDATA[([feature] = 'highway_footway') and ([access] != 'no') and ([int_surface] = 'paved')]]></Filter>
-      <LineSymbolizer stroke="#b37614" stroke-dasharray="1, 3" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.7" />
+      <LineSymbolizer stroke="#fa8072" stroke-dasharray="1, 3" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.7" />
     </Rule>
     <Rule>
       <MaxScaleDenominator>12500</MaxScaleDenominator>
@@ -29635,25 +29812,25 @@
     <Rule>
       <MaxScaleDenominator>1500</MaxScaleDenominator>
       <Filter><![CDATA[([feature] = 'highway_footway') and ([int_surface] = 'unpaved')]]></Filter>
-      <LineSymbolizer stroke="#b37614" stroke-dasharray="1, 4" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.6" />
+      <LineSymbolizer stroke="#fa8072" stroke-dasharray="1, 4" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.6" />
     </Rule>
     <Rule>
       <MaxScaleDenominator>2500</MaxScaleDenominator>
       <MinScaleDenominator>1500</MinScaleDenominator>
       <Filter><![CDATA[([feature] = 'highway_footway') and ([int_surface] = 'unpaved')]]></Filter>
-      <LineSymbolizer stroke="#b37614" stroke-dasharray="1, 4" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.3" />
+      <LineSymbolizer stroke="#fa8072" stroke-dasharray="1, 4" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.3" />
     </Rule>
     <Rule>
       <MaxScaleDenominator>12500</MaxScaleDenominator>
       <MinScaleDenominator>2500</MinScaleDenominator>
       <Filter><![CDATA[([feature] = 'highway_footway') and ([int_surface] = 'unpaved')]]></Filter>
-      <LineSymbolizer stroke="#b37614" stroke-dasharray="1, 4" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.3" />
+      <LineSymbolizer stroke="#fa8072" stroke-dasharray="1, 4" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.3" />
     </Rule>
     <Rule>
       <MaxScaleDenominator>25000</MaxScaleDenominator>
       <MinScaleDenominator>12500</MinScaleDenominator>
       <Filter><![CDATA[([feature] = 'highway_footway') and ([int_surface] = 'unpaved')]]></Filter>
-      <LineSymbolizer stroke="#b37614" stroke-dasharray="1, 4" stroke-linecap="round" stroke-linejoin="round" stroke-width="1" />
+      <LineSymbolizer stroke="#fa8072" stroke-dasharray="1, 4" stroke-linecap="round" stroke-linejoin="round" stroke-width="1" />
     </Rule>
     <Rule>
       <MaxScaleDenominator>1500</MaxScaleDenominator>
@@ -29681,25 +29858,25 @@
     <Rule>
       <MaxScaleDenominator>1500</MaxScaleDenominator>
       <Filter><![CDATA[([feature] = 'highway_footway') and ([int_surface] = null)]]></Filter>
-      <LineSymbolizer stroke="#b37614" stroke-dasharray="1, 4, 2, 3" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.6" />
+      <LineSymbolizer stroke="#fa8072" stroke-dasharray="1, 4, 2, 3" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.6" />
     </Rule>
     <Rule>
       <MaxScaleDenominator>2500</MaxScaleDenominator>
       <MinScaleDenominator>1500</MinScaleDenominator>
       <Filter><![CDATA[([feature] = 'highway_footway') and ([int_surface] = null)]]></Filter>
-      <LineSymbolizer stroke="#b37614" stroke-dasharray="1, 4, 2, 3" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.3" />
+      <LineSymbolizer stroke="#fa8072" stroke-dasharray="1, 4, 2, 3" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.3" />
     </Rule>
     <Rule>
       <MaxScaleDenominator>12500</MaxScaleDenominator>
       <MinScaleDenominator>2500</MinScaleDenominator>
       <Filter><![CDATA[([feature] = 'highway_footway') and ([int_surface] = null)]]></Filter>
-      <LineSymbolizer stroke="#b37614" stroke-dasharray="1, 4, 2, 3" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.3" />
+      <LineSymbolizer stroke="#fa8072" stroke-dasharray="1, 4, 2, 3" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.3" />
     </Rule>
     <Rule>
       <MaxScaleDenominator>25000</MaxScaleDenominator>
       <MinScaleDenominator>12500</MinScaleDenominator>
       <Filter><![CDATA[([feature] = 'highway_footway') and ([int_surface] = null)]]></Filter>
-      <LineSymbolizer stroke="#b37614" stroke-dasharray="1, 3, 2, 4" stroke-linecap="round" stroke-linejoin="round" stroke-width="1" />
+      <LineSymbolizer stroke="#fa8072" stroke-dasharray="1, 3, 2, 4" stroke-linecap="round" stroke-linejoin="round" stroke-width="1" />
     </Rule>
     <Rule>
       <MaxScaleDenominator>1500</MaxScaleDenominator>
@@ -29733,31 +29910,31 @@
     <Rule>
       <MaxScaleDenominator>1500</MaxScaleDenominator>
       <Filter><![CDATA[([feature] = 'highway_footway') and ([int_surface] = 'paved')]]></Filter>
-      <LineSymbolizer stroke="#b37614" stroke-dasharray="3, 3" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.6" />
+      <LineSymbolizer stroke="#fa8072" stroke-dasharray="3, 3" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.6" />
     </Rule>
     <Rule>
       <MaxScaleDenominator>2500</MaxScaleDenominator>
       <MinScaleDenominator>1500</MinScaleDenominator>
       <Filter><![CDATA[([feature] = 'highway_footway') and ([int_surface] = 'paved')]]></Filter>
-      <LineSymbolizer stroke="#b37614" stroke-dasharray="3, 3" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.3" />
+      <LineSymbolizer stroke="#fa8072" stroke-dasharray="3, 3" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.3" />
     </Rule>
     <Rule>
       <MaxScaleDenominator>5000</MaxScaleDenominator>
       <MinScaleDenominator>2500</MinScaleDenominator>
       <Filter><![CDATA[([feature] = 'highway_footway') and ([int_surface] = 'paved')]]></Filter>
-      <LineSymbolizer stroke="#b37614" stroke-dasharray="3, 3" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.3" />
+      <LineSymbolizer stroke="#fa8072" stroke-dasharray="3, 3" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.3" />
     </Rule>
     <Rule>
       <MaxScaleDenominator>12500</MaxScaleDenominator>
       <MinScaleDenominator>5000</MinScaleDenominator>
       <Filter><![CDATA[([feature] = 'highway_footway') and ([int_surface] = 'paved')]]></Filter>
-      <LineSymbolizer stroke="#b37614" stroke-dasharray="3, 3.5" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.3" />
+      <LineSymbolizer stroke="#fa8072" stroke-dasharray="3, 3.5" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.3" />
     </Rule>
     <Rule>
       <MaxScaleDenominator>25000</MaxScaleDenominator>
       <MinScaleDenominator>12500</MinScaleDenominator>
       <Filter><![CDATA[([feature] = 'highway_footway') and ([int_surface] = 'paved')]]></Filter>
-      <LineSymbolizer stroke="#b37614" stroke-dasharray="2, 3.5" stroke-linecap="round" stroke-linejoin="round" stroke-width="1" />
+      <LineSymbolizer stroke="#fa8072" stroke-dasharray="2, 3.5" stroke-linecap="round" stroke-linejoin="round" stroke-width="1" />
     </Rule>
     <Rule>
       <MaxScaleDenominator>25000</MaxScaleDenominator>
@@ -29767,7 +29944,7 @@
     <Rule>
       <MaxScaleDenominator>50000</MaxScaleDenominator>
       <Filter><![CDATA[([feature] = 'highway_path') and ([bicycle] != 'designated') and ([horse] != 'designated') and ([access] != 'no')]]></Filter>
-      <LineSymbolizer stroke="#b37614" stroke-dasharray="1, 3" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.7" />
+      <LineSymbolizer stroke="#fa8072" stroke-dasharray="1, 3" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.7" />
     </Rule>
     <Rule>
       <MaxScaleDenominator>25000</MaxScaleDenominator>
@@ -30247,7 +30424,7 @@
     <Rule>
       <MaxScaleDenominator>25000</MaxScaleDenominator>
       <Filter><![CDATA[([feature] = 'highway_path') and ([bicycle] != 'designated') and ([horse] != 'designated')]]></Filter>
-      <LineSymbolizer stroke="#b37614" stroke-dasharray="1, 3" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.7" />
+      <LineSymbolizer stroke="#fa8072" stroke-dasharray="1, 3" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.7" />
     </Rule>
     <Rule>
       <MaxScaleDenominator>25000</MaxScaleDenominator>
@@ -30278,13 +30455,13 @@
     <Rule>
       <MaxScaleDenominator>25000</MaxScaleDenominator>
       <Filter><![CDATA[([feature] = 'highway_steps') and ([access] != 'no')]]></Filter>
-      <LineSymbolizer stroke="#b37614" stroke-dasharray="2, 1" stroke-width="9" />
+      <LineSymbolizer stroke="#b5903a" stroke-dasharray="2, 1" stroke-width="3" />
     </Rule>
     <Rule>
       <MaxScaleDenominator>50000</MaxScaleDenominator>
       <MinScaleDenominator>25000</MinScaleDenominator>
       <Filter><![CDATA[([feature] = 'highway_steps') and ([access] != 'no')]]></Filter>
-      <LineSymbolizer stroke="#b37614" stroke-dasharray="2, 1" stroke-width="2.7" />
+      <LineSymbolizer stroke="#b5903a" stroke-dasharray="2, 1" stroke-width="0.7" />
     </Rule>
     <Rule>
       <MaxScaleDenominator>25000</MaxScaleDenominator>
@@ -30452,7 +30629,7 @@
     <Rule>
       <MaxScaleDenominator>50000</MaxScaleDenominator>
       <Filter><![CDATA[([feature] = 'highway_footway') and ([access] != 'no')]]></Filter>
-      <LineSymbolizer stroke="#b37614" stroke-dasharray="1, 3" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.7" />
+      <LineSymbolizer stroke="#fa8072" stroke-dasharray="1, 3" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.7" />
     </Rule>
     <Rule>
       <MaxScaleDenominator>25000</MaxScaleDenominator>
@@ -30467,12 +30644,12 @@
     <Rule>
       <MaxScaleDenominator>25000</MaxScaleDenominator>
       <Filter><![CDATA[([feature] = 'highway_steps') and ([access] = 'no')]]></Filter>
-      <LineSymbolizer stroke="#bbbbbb" stroke-dasharray="2, 1" stroke-width="9" />
+      <LineSymbolizer stroke="#bbbbbb" stroke-dasharray="2, 1" stroke-width="3" />
     </Rule>
     <Rule>
       <MaxScaleDenominator>25000</MaxScaleDenominator>
       <Filter><![CDATA[([feature] = 'highway_steps')]]></Filter>
-      <LineSymbolizer stroke="#b37614" stroke-dasharray="2, 1" stroke-width="9" />
+      <LineSymbolizer stroke="#b5903a" stroke-dasharray="2, 1" stroke-width="3" />
     </Rule>
     <Rule>
       <MaxScaleDenominator>12500</MaxScaleDenominator>
@@ -30510,7 +30687,7 @@
     <Rule>
       <MaxScaleDenominator>25000</MaxScaleDenominator>
       <Filter><![CDATA[([feature] = 'highway_footway')]]></Filter>
-      <LineSymbolizer stroke="#b37614" stroke-dasharray="1, 3" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.7" />
+      <LineSymbolizer stroke="#fa8072" stroke-dasharray="1, 3" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.7" />
     </Rule>
     <Rule>
       <MaxScaleDenominator>12500</MaxScaleDenominator>
@@ -30775,13 +30952,13 @@
     <Rule>
       <MaxScaleDenominator>25000</MaxScaleDenominator>
       <Filter><![CDATA[([feature] = 'highway_steps') and ([access] != 'no')]]></Filter>
-      <LineSymbolizer stroke="#ffffff" stroke-linejoin="round" stroke-width="11" />
+      <LineSymbolizer stroke="#ffffff" stroke-linejoin="round" stroke-width="5" />
     </Rule>
     <Rule>
       <MaxScaleDenominator>50000</MaxScaleDenominator>
       <MinScaleDenominator>25000</MinScaleDenominator>
       <Filter><![CDATA[([feature] = 'highway_steps') and ([access] != 'no')]]></Filter>
-      <LineSymbolizer stroke="#ffffff" stroke-linejoin="round" stroke-width="4.7" />
+      <LineSymbolizer stroke="#ffffff" stroke-linejoin="round" stroke-width="2.7" />
     </Rule>
     <Rule>
       <MaxScaleDenominator>1500</MaxScaleDenominator>
@@ -30934,7 +31111,7 @@
     <Rule>
       <MaxScaleDenominator>25000</MaxScaleDenominator>
       <Filter><![CDATA[([feature] = 'highway_steps')]]></Filter>
-      <LineSymbolizer stroke="#ffffff" stroke-linejoin="round" stroke-width="11" />
+      <LineSymbolizer stroke="#ffffff" stroke-linejoin="round" stroke-width="5" />
     </Rule>
     <Rule>
       <MaxScaleDenominator>1500</MaxScaleDenominator>
@@ -31241,13 +31418,13 @@
     <Rule>
       <MaxScaleDenominator>25000</MaxScaleDenominator>
       <Filter><![CDATA[([feature] = 'highway_steps') and ([access] != 'no')]]></Filter>
-      <LineSymbolizer stroke="#000000" stroke-linejoin="round" stroke-width="12" />
+      <LineSymbolizer stroke="#000000" stroke-linejoin="round" stroke-width="6" />
     </Rule>
     <Rule>
       <MaxScaleDenominator>50000</MaxScaleDenominator>
       <MinScaleDenominator>25000</MinScaleDenominator>
       <Filter><![CDATA[([feature] = 'highway_steps') and ([access] != 'no')]]></Filter>
-      <LineSymbolizer stroke="#000000" stroke-linejoin="round" stroke-width="5.7" />
+      <LineSymbolizer stroke="#000000" stroke-linejoin="round" stroke-width="3.7" />
     </Rule>
     <Rule>
       <MaxScaleDenominator>25000</MaxScaleDenominator>
@@ -31359,7 +31536,7 @@
     <Rule>
       <MaxScaleDenominator>25000</MaxScaleDenominator>
       <Filter><![CDATA[([feature] = 'highway_steps')]]></Filter>
-      <LineSymbolizer stroke="#000000" stroke-linejoin="round" stroke-width="12" />
+      <LineSymbolizer stroke="#000000" stroke-linejoin="round" stroke-width="6" />
     </Rule>
     <Rule>
       <MaxScaleDenominator>1500</MaxScaleDenominator>
@@ -34292,7 +34469,7 @@ SELECT
       NULL as way_area
     FROM planet_osm_point
     WHERE way && !bbox!
-    ) _
+    )
   WHERE railway IN ('station', 'halt', 'tram_stop')
     OR railway = 'subway_entrance' AND way_area IS NULL
     OR aerialway = 'station'
@@ -38188,32 +38365,32 @@ ORDER BY
     <Rule>
       <MaxScaleDenominator>12500</MaxScaleDenominator>
       <Filter><![CDATA[([highway] = 'steps') and ([oneway] = '-1')]]></Filter>
-      <TextSymbolizer clip="false" dy="-3" fill="#120c02" fontset-name="fontset-0" halo-fill="rgba(255, 255, 255, 0.6)" halo-radius="1.5" margin="2" placement="line" size="15" spacing="180" upright="left" vertical-alignment="middle"><![CDATA['🠖']]></TextSymbolizer>
+      <TextSymbolizer clip="false" dy="-3" fill="#2e240f" fontset-name="fontset-0" halo-fill="rgba(255, 255, 255, 0.6)" halo-radius="1.5" margin="2" placement="line" size="15" spacing="180" upright="left" vertical-alignment="middle"><![CDATA['🠖']]></TextSymbolizer>
     </Rule>
     <Rule>
       <MaxScaleDenominator>12500</MaxScaleDenominator>
       <Filter><![CDATA[([highway] = 'steps') and ([oneway] = 'yes')]]></Filter>
-      <TextSymbolizer clip="false" dy="3" fill="#120c02" fontset-name="fontset-0" halo-fill="rgba(255, 255, 255, 0.6)" halo-radius="1.5" margin="2" placement="line" size="15" spacing="180" upright="right" vertical-alignment="middle"><![CDATA['🠖']]></TextSymbolizer>
+      <TextSymbolizer clip="false" dy="3" fill="#2e240f" fontset-name="fontset-0" halo-fill="rgba(255, 255, 255, 0.6)" halo-radius="1.5" margin="2" placement="line" size="15" spacing="180" upright="right" vertical-alignment="middle"><![CDATA['🠖']]></TextSymbolizer>
     </Rule>
     <Rule>
       <MaxScaleDenominator>12500</MaxScaleDenominator>
       <Filter><![CDATA[([highway] = 'path') and ([oneway] = '-1')]]></Filter>
-      <TextSymbolizer clip="false" dy="-3" fill="#120c02" fontset-name="fontset-0" halo-fill="rgba(255, 255, 255, 0.6)" halo-radius="1.5" margin="2" placement="line" size="15" spacing="180" upright="left" vertical-alignment="middle"><![CDATA['🠖']]></TextSymbolizer>
+      <TextSymbolizer clip="false" dy="-3" fill="#b31806" fontset-name="fontset-0" halo-fill="rgba(255, 255, 255, 0.6)" halo-radius="1.5" margin="2" placement="line" size="15" spacing="180" upright="left" vertical-alignment="middle"><![CDATA['🠖']]></TextSymbolizer>
     </Rule>
     <Rule>
       <MaxScaleDenominator>12500</MaxScaleDenominator>
       <Filter><![CDATA[([highway] = 'path') and ([oneway] = 'yes')]]></Filter>
-      <TextSymbolizer clip="false" dy="3" fill="#120c02" fontset-name="fontset-0" halo-fill="rgba(255, 255, 255, 0.6)" halo-radius="1.5" margin="2" placement="line" size="15" spacing="180" upright="right" vertical-alignment="middle"><![CDATA['🠖']]></TextSymbolizer>
+      <TextSymbolizer clip="false" dy="3" fill="#b31806" fontset-name="fontset-0" halo-fill="rgba(255, 255, 255, 0.6)" halo-radius="1.5" margin="2" placement="line" size="15" spacing="180" upright="right" vertical-alignment="middle"><![CDATA['🠖']]></TextSymbolizer>
     </Rule>
     <Rule>
       <MaxScaleDenominator>12500</MaxScaleDenominator>
       <Filter><![CDATA[([highway] = 'footway') and ([oneway] = 'yes')]]></Filter>
-      <TextSymbolizer clip="false" dy="3" fill="#120c02" fontset-name="fontset-0" halo-fill="rgba(255, 255, 255, 0.6)" halo-radius="1.5" margin="2" placement="line" size="15" spacing="180" upright="right" vertical-alignment="middle"><![CDATA['🠖']]></TextSymbolizer>
+      <TextSymbolizer clip="false" dy="3" fill="#b31806" fontset-name="fontset-0" halo-fill="rgba(255, 255, 255, 0.6)" halo-radius="1.5" margin="2" placement="line" size="15" spacing="180" upright="right" vertical-alignment="middle"><![CDATA['🠖']]></TextSymbolizer>
     </Rule>
     <Rule>
       <MaxScaleDenominator>12500</MaxScaleDenominator>
       <Filter><![CDATA[([highway] = 'footway') and ([oneway] = '-1')]]></Filter>
-      <TextSymbolizer clip="false" dy="-3" fill="#120c02" fontset-name="fontset-0" halo-fill="rgba(255, 255, 255, 0.6)" halo-radius="1.5" margin="2" placement="line" size="15" spacing="180" upright="left" vertical-alignment="middle"><![CDATA['🠖']]></TextSymbolizer>
+      <TextSymbolizer clip="false" dy="-3" fill="#b31806" fontset-name="fontset-0" halo-fill="rgba(255, 255, 255, 0.6)" halo-radius="1.5" margin="2" placement="line" size="15" spacing="180" upright="left" vertical-alignment="middle"><![CDATA['🠖']]></TextSymbolizer>
     </Rule>
     <Rule>
       <MaxScaleDenominator>12500</MaxScaleDenominator>
@@ -39218,32 +39395,32 @@ ORDER BY
     <Rule>
       <MaxScaleDenominator>12500</MaxScaleDenominator>
       <Filter><![CDATA[([highway] = 'steps') and ([oneway] = 'yes')]]></Filter>
-      <TextSymbolizer clip="false" dy="3" fill="#120c02" fontset-name="fontset-0" halo-fill="rgba(255, 255, 255, 0.6)" halo-radius="1.5" margin="2" placement="line" size="15" spacing="180" upright="right" vertical-alignment="middle"><![CDATA['🠖']]></TextSymbolizer>
+      <TextSymbolizer clip="false" dy="3" fill="#2e240f" fontset-name="fontset-0" halo-fill="rgba(255, 255, 255, 0.6)" halo-radius="1.5" margin="2" placement="line" size="15" spacing="180" upright="right" vertical-alignment="middle"><![CDATA['🠖']]></TextSymbolizer>
     </Rule>
     <Rule>
       <MaxScaleDenominator>12500</MaxScaleDenominator>
       <Filter><![CDATA[([highway] = 'steps') and ([oneway] = '-1')]]></Filter>
-      <TextSymbolizer clip="false" dy="-3" fill="#120c02" fontset-name="fontset-0" halo-fill="rgba(255, 255, 255, 0.6)" halo-radius="1.5" margin="2" placement="line" size="15" spacing="180" upright="left" vertical-alignment="middle"><![CDATA['🠖']]></TextSymbolizer>
+      <TextSymbolizer clip="false" dy="-3" fill="#2e240f" fontset-name="fontset-0" halo-fill="rgba(255, 255, 255, 0.6)" halo-radius="1.5" margin="2" placement="line" size="15" spacing="180" upright="left" vertical-alignment="middle"><![CDATA['🠖']]></TextSymbolizer>
     </Rule>
     <Rule>
       <MaxScaleDenominator>12500</MaxScaleDenominator>
       <Filter><![CDATA[([highway] = 'path') and ([oneway] = 'yes')]]></Filter>
-      <TextSymbolizer clip="false" dy="3" fill="#120c02" fontset-name="fontset-0" halo-fill="rgba(255, 255, 255, 0.6)" halo-radius="1.5" margin="2" placement="line" size="15" spacing="180" upright="right" vertical-alignment="middle"><![CDATA['🠖']]></TextSymbolizer>
+      <TextSymbolizer clip="false" dy="3" fill="#b31806" fontset-name="fontset-0" halo-fill="rgba(255, 255, 255, 0.6)" halo-radius="1.5" margin="2" placement="line" size="15" spacing="180" upright="right" vertical-alignment="middle"><![CDATA['🠖']]></TextSymbolizer>
     </Rule>
     <Rule>
       <MaxScaleDenominator>12500</MaxScaleDenominator>
       <Filter><![CDATA[([highway] = 'path') and ([oneway] = '-1')]]></Filter>
-      <TextSymbolizer clip="false" dy="-3" fill="#120c02" fontset-name="fontset-0" halo-fill="rgba(255, 255, 255, 0.6)" halo-radius="1.5" margin="2" placement="line" size="15" spacing="180" upright="left" vertical-alignment="middle"><![CDATA['🠖']]></TextSymbolizer>
+      <TextSymbolizer clip="false" dy="-3" fill="#b31806" fontset-name="fontset-0" halo-fill="rgba(255, 255, 255, 0.6)" halo-radius="1.5" margin="2" placement="line" size="15" spacing="180" upright="left" vertical-alignment="middle"><![CDATA['🠖']]></TextSymbolizer>
     </Rule>
     <Rule>
       <MaxScaleDenominator>12500</MaxScaleDenominator>
       <Filter><![CDATA[([highway] = 'footway') and ([oneway] = 'yes')]]></Filter>
-      <TextSymbolizer clip="false" dy="3" fill="#120c02" fontset-name="fontset-0" halo-fill="rgba(255, 255, 255, 0.6)" halo-radius="1.5" margin="2" placement="line" size="15" spacing="180" upright="right" vertical-alignment="middle"><![CDATA['🠖']]></TextSymbolizer>
+      <TextSymbolizer clip="false" dy="3" fill="#b31806" fontset-name="fontset-0" halo-fill="rgba(255, 255, 255, 0.6)" halo-radius="1.5" margin="2" placement="line" size="15" spacing="180" upright="right" vertical-alignment="middle"><![CDATA['🠖']]></TextSymbolizer>
     </Rule>
     <Rule>
       <MaxScaleDenominator>12500</MaxScaleDenominator>
       <Filter><![CDATA[([highway] = 'footway') and ([oneway] = '-1')]]></Filter>
-      <TextSymbolizer clip="false" dy="-3" fill="#120c02" fontset-name="fontset-0" halo-fill="rgba(255, 255, 255, 0.6)" halo-radius="1.5" margin="2" placement="line" size="15" spacing="180" upright="left" vertical-alignment="middle"><![CDATA['🠖']]></TextSymbolizer>
+      <TextSymbolizer clip="false" dy="-3" fill="#b31806" fontset-name="fontset-0" halo-fill="rgba(255, 255, 255, 0.6)" halo-radius="1.5" margin="2" placement="line" size="15" spacing="180" upright="left" vertical-alignment="middle"><![CDATA['🠖']]></TextSymbolizer>
     </Rule>
     <Rule>
       <MaxScaleDenominator>12500</MaxScaleDenominator>
